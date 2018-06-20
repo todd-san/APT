@@ -1,4 +1,6 @@
 import xlrd
+import copy
+import openpyxl
 import numpy as np
 import os
 import xlwt
@@ -75,9 +77,7 @@ class AirPermTest:
     @property
     def time(self):
         t0 = time.mktime(self.datetime[0].timetuple())
-
         t = [time.mktime(tN.timetuple()) - t0 for tN in self.datetime]
-
         return t
 
 
@@ -125,9 +125,7 @@ class AirPermSpec:
 
     def exp_cb(self):
         x = np.linspace(self.t.min(), self.t.max(), 100)
-        log.debug('VAR A: {}, 2*SIG_A: {}'.format(self.pcov[0][0], 2*self.pcov[0][0]**0.5))
-        log.debug('VAR B: {}, 2*SIG_A: {}'.format(self.pcov[1][1], 2*self.pcov[1][1]**0.5))
-        log.debug('VAR C: {}, 2*SIG_A: {}'.format(self.pcov[2][2], 2*self.pcov[1][1]**0.5))
+
         pos_a = self.popt[0]+(self.pcov[0][0]**0.5)
         neg_a = self.popt[0]-(self.pcov[0][0]**0.5)
         pos_b = self.popt[1]+(self.pcov[1][1]**0.5)
@@ -163,33 +161,49 @@ class AirPermSpec:
     def exp_correlation(self):
         xd = self.t
         yd = self.p
+
+        residuals = yd - self.exp_model(xd, *self.popt)
+        # ss_res = np.sum(residuals)**2
+        # ss_total = np.sum((yd - np.mean(yd))**2)
+        # r2 = 1 - (ss_res / ss_total)
+
         yp = self.exp_model(xd, *self.popt)
         n = np.size(yd)
-        return (n*np.sum(yd*yp) - (np.sum(yd)*np.sum(yp))) / \
-               (np.sqrt((n*(np.sum(np.square(yd))) - np.sum(yd)**2) * (n*(np.sum(np.square(yp))) - np.sum(yp)**2)))
+        r2 = (n*np.sum(yd*yp) - (np.sum(yd)*np.sum(yp))) / \
+             (np.sqrt((n*(np.sum(np.square(yd))) - np.sum(yd)**2) * (n*(np.sum(np.square(yp))) - np.sum(yp)**2)))
+
+        # second = (self.pcov[0][1]) / \
+        #          (np.sqrt(self.pcov[0][0] * self.pcov[1][1]))
+        #
+        # log.debug('ss_res   =  {}'.format(ss_res))
+        # log.debug('ss_total =  {}'.format(ss_total))
+        # log.debug('perr =  {}'.format(np.sqrt(np.diag(self.pcov))))
+
+        return r2
 
     def plot(self):
         xd = self.t
         yd = self.p
-        x = np.linspace(xd.min(), xd.max(), 100)
+        yd_nom = self.nom_p
+        x = np.linspace(xd.min(), xd.max(), 1000)
         popt = self.popt
 
         lpb, upb = self.exp_pb()
         lcb, ucb = self.exp_cb()
 
-        plt.plot(x, ucb, c='k', alpha=0.35)
-        plt.plot(x, lcb, c='k', alpha=0.35)
-        plt.plot(x, self.exp_model(x, *popt), c='k', label='Exp. Fit')
-        plt.plot(x, upb, c='r', alpha=0.5)
-        plt.plot(x, lpb, c='r', alpha=0.5)
-        plt.fill_between(x, y1=ucb, y2=lcb, color='k', alpha=0.20, label='95% Confidence Band')
-        plt.fill_between(x, y1=upb, y2=lpb, color='r', alpha=0.20, label='95% Prediction Band')
-        plt.scatter(xd, yd, alpha=0.10, label='APT Raw Data')
+        # plt.plot(x, ucb, c='k', alpha=0.35)
+        # plt.plot(x, lcb, c='k', alpha=0.35)
+        plt.plot(x, self.exp_model(x, *popt), label=self.name)
+        # plt.plot(x, upb, c='r', alpha=0.5)
+        # plt.plot(x, lpb, c='r', alpha=0.5)
+        # plt.fill_between(x, y1=ucb, y2=lcb, color='k', alpha=0.20, label='95% Confidence Band')
+        # plt.fill_between(x, y1=upb, y2=lpb, color='r', alpha=0.20, label='95% Prediction Band')
+        plt.scatter(xd, yd, alpha=0.10)
+        # plt.scatter(xd, yd_nom, alpha=0.50, c='k', label='Raw Pressures')
         plt.ylabel('Pressure (PSI)')
         plt.xlabel('time (hours)')
         plt.title('Kenda Air Permeation Test: {}'.format(self.name))
         plt.legend()
-        plt.show()
 
 
 class AirPermThermocouples:
@@ -199,9 +213,9 @@ class AirPermThermocouples:
                 setattr(self, key, value)
 
 
-def main(input_file, output_file='output.xls'):
-    log.info('CALLING read_xlsx(input_file={})'.format(input_file))
-    apt = read_xlsx(input_file)
+def main(input, output='output.xls', template='apt_report_template.xlsx'):
+    log.info('CALLING read_xlsx(input_file={})'.format(input))
+    apt = read_xlsx(input)
     # log.debug('{}'.format(apt.avg_temp_kelvin[0:5]))
     # log.debug('{}'.format(apt.avg_temp_celsius[0:5]))
     # log.debug('-'*50)
@@ -210,14 +224,12 @@ def main(input_file, output_file='output.xls'):
     # log.debug(apt.specs[0].normalized[20:25])
     log.debug('# of Specs: {}'.format(len(apt.specs)))
     log.debug('-'*50)
-    # for spec in apt.specs:
-    #     log.debug('Plotting Spec: {}'.format(spec.name))
-    #     log.debug('Exp. Fit,   R: {}'.format(spec.exp_correlation()))
-    #     spec.plot()
-    #     spec.exp_kmpfit()
-    #     os.system("pause")
-    #     log.debug('-'*50)
-    write_xlsx(apt, output_file)
+    for spec in apt.specs:
+        log.debug('Exp. Fit,   R: {}'.format(spec.exp_correlation()))
+        spec.plot()
+
+    plt.show()
+    write_xlsx(apt, output, template)
 
 
 def read_xlsx(file):
@@ -269,52 +281,81 @@ def read_xlsx(file):
     return AirPermTest(**data)
 
 
-def write_xlsx(data, file):
-    wb = xlwt.Workbook()
-    ws1 = wb.add_sheet("Summary")
-    # ws1.row(1).height_mismatch = True
-    # ws1.row(1).height = 44*20
+def write_xlsx(data, file, template):
 
-    init_row_heights = [15, 43, 27, 36, 18, 18]
-    for i, h in enumerate(init_row_heights):
-        ws1.row(i).height_mismatch = True
-        ws1.row(i).height = h*20
+    wb = openpyxl.load_workbook(template)
+    ws = wb['SUMMARY']
 
-    init_col_widths = [8, 8, 8, 17, 8]
-    for i, w in enumerate(init_col_widths):
-        ws1.col(i).width = w*367
+    ws['E11'] = 9999
+    ws['E13'] = 9999
+    ws['E15'] = 9999
+    ws['E17'] = 9999
+    ws['E19'] = 9999
+    ws['E21'] = 9999
 
-    spec_sheets = list()
-    for spec in data.specs:
-        tmp = wb.add_sheet(spec.name)
+    for i, spec in enumerate(data.specs):
+        target = 'SPEC_'+str(i+1)
+        tmp = wb[target]
+        tmp['C2'] = spec.popt[0]
+        tmp['C3'] = spec.popt[1]
+        tmp['C4'] = spec.popt[2]
+        tmp['B5'] = spec.exp_correlation()
+        tmp.title = spec.name
+        for j in range(len(spec.p)):
+            tmp.cell(row=j+2, column=4).value = spec.t[j]
+            tmp.cell(row=j+2, column=5).value = spec.nom_p[j]
+            tmp.cell(row=j+2, column=6).value = spec.p[j]
+            tmp.cell(row=j+2, column=9).value = spec.temps[j]
 
-        tmp.write(0, 1, label='Time (hrs)')
-        tmp.write(0, 2, label='Nominal Pressure')
-        tmp.write(0, 3, label='Normalized Pressure')
-        tmp.write(0, 4, label='Averaged Temperature')
-        for i, val in enumerate(spec.nom_p):
-            tmp.write(i+1, 1, spec.t[i])
-            tmp.write(i+1, 2, spec.nom_p[i])
-            tmp.write(i+1, 3, spec.p[i])
-            tmp.write(i+1, 4, spec.temps[i])
-        spec_sheets.append(tmp)
-
-    # summary label
-    ws1.write_merge(1, 1, 1, 10,
-                    label='AIR PERMEATION TESTING - SUMMARY',
-                    style=xlwt.easyxf('font: height 360; align: horz center, vert center'))
-
-    # tested specs label
-    ws1.write_merge(2, 5, 1, 2,
-                    label='TESTED SPECS',
-                    style=xlwt.easyxf('font: bold 1, height 320; align: horz center, vert center, wrap 1'))
-
-    # start date & time label
-    ws1.write_merge(2, 2, 4, 5,
-                    label='START',
-                    style=xlwt.easyxf('font: bold 1; align: horz center, vert center;'))
-
-    wb.save(file)
+    wb.save('output.xlsx')
+    # wb = xlwt.Workbook()
+    # ws1 = wb.add_sheet("Summary")
+    # # ws1.row(1).height_mismatch = True
+    # # ws1.row(1).height = 44*20
+    #
+    # init_row_heights = [15, 43, 27, 36, 18, 18]
+    #     ws1.row(i).height_mismatch = True
+    #     ws1.row(i).height = h*20
+    #
+    # init_col_widths = [8, 8, 8, 17, 8]
+    # for i, w in enumerate(init_col_widths):
+    #     ws1.col(i).width = w*367
+    #
+    # spec_sheets = list()
+    # for spec in data.specs:
+    #     tmp = wb.add_sheet(spec.name)
+    #     tmp.write_merge(0, 3, 0, 0,
+    #                     label='EQ',
+    #                     style=xlwt.easyxf('font: bold 1, height 240; align: horz center, vert center'))
+    #     tmp.col(4).width = 5*367
+    #     tmp.write(4, 0, label='R')
+    #     tmp.write(0, 5, label='Time (hrs)')
+    #     tmp.write(0, 6, label='Nominal Pressure')
+    #     tmp.write(0, 7, label='Normalized Pressure')
+    #     tmp.write(0, 8, label='Averaged Temperature')
+    #     for i, val in enumerate(spec.nom_p):
+    #         tmp.write(i+1, 5, spec.t[i])
+    #         tmp.write(i+1, 6, spec.nom_p[i])
+    #         tmp.write(i+1, 7, spec.p[i])
+    #         tmp.write(i+1, 8, spec.temps[i])
+    #     spec_sheets.append(tmp)
+    #
+    # # summary label
+    # ws1.write_merge(1, 1, 1, 10,
+    #                 label='AIR PERMEATION TESTING - SUMMARY',
+    #                 style=xlwt.easyxf('font: height 360; align: horz center, vert center'))
+    #
+    # # tested specs label
+    # ws1.write_merge(2, 5, 1, 2,
+    #                 label='TESTED SPECS',
+    #                 style=xlwt.easyxf('font: bold 1, height 320; align: horz center, vert center, wrap 1'))
+    #
+    # # start date & time label
+    # ws1.write_merge(2, 2, 4, 5,
+    #                 label='START',
+    #                 style=xlwt.easyxf('font: bold 1; align: horz center, vert center;'))
+    #
+    # wb.save(file)
 
 
 def init_logger():
@@ -351,10 +392,10 @@ if __name__ == "__main__":
     log.info('==============================================================================')
 
     if len(sys.argv) >= 3:
-        main(input_file=sys.argv[1], output_file=sys.argv[2])
+        main(input=sys.argv[1], output=sys.argv[2])
 
     elif len(sys.argv) == 2:
-        main(input_file=sys.argv[1])
+        main(input=sys.argv[1])
 
     else:
         log.error("INCOMPETENCE ERROR: No input file, SOLUTION: I suggest to stop being stupid")

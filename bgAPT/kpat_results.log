@@ -53151,3 +53151,2005 @@ status -               r - 151 - DEBUG - top:    13608675.394490302
 status -               r - 152 - DEBUG - bottom: 13631097.928980853
 status -               r - 153 - DEBUG - R:      0.9983550456018014
 status -            main - 236 - DEBUG - Spec EXP. Func R: 0.9983550456018014
+status -        <module> - 345 - INFO - ==============================================================================
+status -        <module> - 346 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 347 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 349 - INFO - ----------------           2018-06-20 | 10:56:06          --------------------
+status -        <module> - 351 - INFO - ==============================================================================
+status -        <module> - 360 - ERROR - INCOMPETENCE ERROR: No input file, SOLUTION: I suggest to stop being stupid
+status -        <module> - 361 - INFO - PROGRAM TERMINATED WITH ERRORS - USER IS BEING A MORON
+status -        <module> - 363 - INFO - ==============================================================================
+status -        <module> - 365 - INFO - ----------------            2018-06-20 | 10:56:06         --------------------
+status -        <module> - 367 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 368 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 369 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 370 - INFO - ==============================================================================
+status -        <module> - 345 - INFO - ==============================================================================
+status -        <module> - 346 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 347 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 349 - INFO - ----------------           2018-06-20 | 10:56:22          --------------------
+status -        <module> - 351 - INFO - ==============================================================================
+status -            main - 203 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 226 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 227 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 228 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 233 - DEBUG - number of sheets: 1
+status -       read_xlsx - 236 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 211 - DEBUG - # of Specs: 9
+status -            main - 212 - DEBUG - --------------------------------------------------
+status -        <module> - 363 - INFO - ==============================================================================
+status -        <module> - 365 - INFO - ----------------            2018-06-20 | 10:56:22         --------------------
+status -        <module> - 367 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 368 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 369 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 370 - INFO - ==============================================================================
+status -        <module> - 348 - INFO - ==============================================================================
+status -        <module> - 349 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 350 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 352 - INFO - ----------------           2018-06-20 | 10:58:19          --------------------
+status -        <module> - 354 - INFO - ==============================================================================
+status -            main - 206 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 229 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 230 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 231 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 236 - DEBUG - number of sheets: 1
+status -       read_xlsx - 239 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 214 - DEBUG - # of Specs: 9
+status -            main - 215 - DEBUG - --------------------------------------------------
+status -        <module> - 366 - INFO - ==============================================================================
+status -        <module> - 368 - INFO - ----------------            2018-06-20 | 10:58:19         --------------------
+status -        <module> - 370 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 371 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 372 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 373 - INFO - ==============================================================================
+status -        <module> - 344 - INFO - ==============================================================================
+status -        <module> - 345 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 346 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 348 - INFO - ----------------           2018-06-20 | 11:15:14          --------------------
+status -        <module> - 350 - INFO - ==============================================================================
+status -            main - 201 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 225 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 226 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 227 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 232 - DEBUG - number of sheets: 1
+status -       read_xlsx - 235 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 209 - DEBUG - # of Specs: 9
+status -            main - 210 - DEBUG - --------------------------------------------------
+status -            main - 213 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 214 - DEBUG - Cov. Matrix: [[  4.11248687e-03   3.94658429e-06  -1.73123819e-04]
+ [  3.94658429e-06   2.74103507e-08   4.05352096e-06]
+ [ -1.73123819e-04   4.05352096e-06   9.82928413e-04]]
+status -            main - 213 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 214 - DEBUG - Cov. Matrix: [[  6.61470063e-04   7.76019706e-05  -7.18767158e-07]
+ [  7.76019706e-05   2.46067609e-05   7.94502092e-07]
+ [ -7.18767158e-07   7.94502092e-07   1.83691391e-06]]
+status -            main - 213 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 214 - DEBUG - Cov. Matrix: [[  1.03016243e-01  -1.52083430e-05  -1.04769577e-01]
+ [ -1.52083430e-05   2.25761218e-09   1.54850991e-05]
+ [ -1.04769577e-01   1.54850991e-05   1.06584913e-01]]
+status -            main - 213 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 214 - DEBUG - Cov. Matrix: [[  2.56803388e-01  -6.60928966e-05  -2.60185665e-01]
+ [ -6.60928966e-05   1.70785365e-08   6.70134826e-05]
+ [ -2.60185665e-01   6.70134826e-05   2.63658486e-01]]
+status -            main - 213 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 214 - DEBUG - Cov. Matrix: [[  2.80476130e-01  -8.35567066e-05  -2.84172191e-01]
+ [ -8.35567066e-05   2.49925001e-08   8.47211938e-05]
+ [ -2.84172191e-01   8.47211938e-05   2.87967254e-01]]
+status -            main - 213 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 214 - DEBUG - Cov. Matrix: [[  1.63360064e-01  -6.30724653e-05  -1.66129057e-01]
+ [ -6.30724653e-05   2.44857094e-08   6.42153099e-05]
+ [ -1.66129057e-01   6.42153099e-05   1.68995528e-01]]
+status -            main - 213 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 214 - DEBUG - Cov. Matrix: [[  1.88244875e-01  -6.12281876e-05  -1.91225109e-01]
+ [ -6.12281876e-05   2.00154001e-08   6.22611467e-05]
+ [ -1.91225109e-01   6.22611467e-05   1.94302719e-01]]
+status -            main - 213 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 214 - DEBUG - Cov. Matrix: [[  3.22535528e-01  -9.29666299e-05  -3.26614217e-01]
+ [ -9.29666299e-05   2.68988901e-08   9.42080204e-05]
+ [ -3.26614217e-01   9.42080204e-05   3.30797418e-01]]
+status -            main - 213 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -            main - 214 - DEBUG - Cov. Matrix: [[  3.72854848e-01  -8.39137939e-05  -3.77295781e-01]
+ [ -8.39137939e-05   1.89525982e-08   8.49668950e-05]
+ [ -3.77295781e-01   8.49668950e-05   3.81843428e-01]]
+status -        <module> - 362 - INFO - ==============================================================================
+status -        <module> - 364 - INFO - ----------------            2018-06-20 | 11:15:14         --------------------
+status -        <module> - 366 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 367 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 368 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 369 - INFO - ==============================================================================
+status -        <module> - 348 - INFO - ==============================================================================
+status -        <module> - 349 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 350 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 352 - INFO - ----------------           2018-06-20 | 11:17:17          --------------------
+status -        <module> - 354 - INFO - ==============================================================================
+status -            main - 205 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 229 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 230 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 231 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 236 - DEBUG - number of sheets: 1
+status -       read_xlsx - 239 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 213 - DEBUG - # of Specs: 9
+status -            main - 214 - DEBUG - --------------------------------------------------
+status -        <module> - 348 - INFO - ==============================================================================
+status -        <module> - 349 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 350 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 352 - INFO - ----------------           2018-06-20 | 11:17:40          --------------------
+status -        <module> - 354 - INFO - ==============================================================================
+status -            main - 205 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 229 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 230 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 231 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 236 - DEBUG - number of sheets: 1
+status -       read_xlsx - 239 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 213 - DEBUG - # of Specs: 9
+status -            main - 214 - DEBUG - --------------------------------------------------
+status -        <module> - 348 - INFO - ==============================================================================
+status -        <module> - 349 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 350 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 352 - INFO - ----------------           2018-06-20 | 11:18:15          --------------------
+status -        <module> - 354 - INFO - ==============================================================================
+status -            main - 205 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 229 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 230 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 231 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 236 - DEBUG - number of sheets: 1
+status -       read_xlsx - 239 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 213 - DEBUG - # of Specs: 9
+status -            main - 214 - DEBUG - --------------------------------------------------
+status -        <module> - 348 - INFO - ==============================================================================
+status -        <module> - 349 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 350 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 352 - INFO - ----------------           2018-06-20 | 11:18:43          --------------------
+status -        <module> - 354 - INFO - ==============================================================================
+status -            main - 205 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 229 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 230 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 231 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 236 - DEBUG - number of sheets: 1
+status -       read_xlsx - 239 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 213 - DEBUG - # of Specs: 9
+status -            main - 214 - DEBUG - --------------------------------------------------
+status -        <module> - 351 - INFO - ==============================================================================
+status -        <module> - 352 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 353 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 355 - INFO - ----------------           2018-06-20 | 11:19:48          --------------------
+status -        <module> - 357 - INFO - ==============================================================================
+status -            main - 208 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 232 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 233 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 234 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 239 - DEBUG - number of sheets: 1
+status -       read_xlsx - 242 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 216 - DEBUG - # of Specs: 9
+status -            main - 217 - DEBUG - --------------------------------------------------
+status - exp_correlation - 169 - DEBUG - pcov[1][1]
+status - exp_correlation - 170 - DEBUG - pcov[2][1]
+status - exp_correlation - 171 - DEBUG - pcov[1][2]
+status - exp_correlation - 172 - DEBUG - pcov[2][2]
+status -            main - 220 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status - exp_correlation - 169 - DEBUG - pcov[1][1]
+status - exp_correlation - 170 - DEBUG - pcov[2][1]
+status - exp_correlation - 171 - DEBUG - pcov[1][2]
+status - exp_correlation - 172 - DEBUG - pcov[2][2]
+status -            main - 220 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status - exp_correlation - 169 - DEBUG - pcov[1][1]
+status - exp_correlation - 170 - DEBUG - pcov[2][1]
+status - exp_correlation - 171 - DEBUG - pcov[1][2]
+status - exp_correlation - 172 - DEBUG - pcov[2][2]
+status -            main - 220 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status - exp_correlation - 169 - DEBUG - pcov[1][1]
+status - exp_correlation - 170 - DEBUG - pcov[2][1]
+status - exp_correlation - 171 - DEBUG - pcov[1][2]
+status - exp_correlation - 172 - DEBUG - pcov[2][2]
+status -            main - 220 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status - exp_correlation - 169 - DEBUG - pcov[1][1]
+status - exp_correlation - 170 - DEBUG - pcov[2][1]
+status - exp_correlation - 171 - DEBUG - pcov[1][2]
+status - exp_correlation - 172 - DEBUG - pcov[2][2]
+status -            main - 220 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status - exp_correlation - 169 - DEBUG - pcov[1][1]
+status - exp_correlation - 170 - DEBUG - pcov[2][1]
+status - exp_correlation - 171 - DEBUG - pcov[1][2]
+status - exp_correlation - 172 - DEBUG - pcov[2][2]
+status -            main - 220 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status - exp_correlation - 169 - DEBUG - pcov[1][1]
+status - exp_correlation - 170 - DEBUG - pcov[2][1]
+status - exp_correlation - 171 - DEBUG - pcov[1][2]
+status - exp_correlation - 172 - DEBUG - pcov[2][2]
+status -            main - 220 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status - exp_correlation - 169 - DEBUG - pcov[1][1]
+status - exp_correlation - 170 - DEBUG - pcov[2][1]
+status - exp_correlation - 171 - DEBUG - pcov[1][2]
+status - exp_correlation - 172 - DEBUG - pcov[2][2]
+status -            main - 220 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status - exp_correlation - 169 - DEBUG - pcov[1][1]
+status - exp_correlation - 170 - DEBUG - pcov[2][1]
+status - exp_correlation - 171 - DEBUG - pcov[1][2]
+status - exp_correlation - 172 - DEBUG - pcov[2][2]
+status -            main - 220 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 369 - INFO - ==============================================================================
+status -        <module> - 371 - INFO - ----------------            2018-06-20 | 11:19:48         --------------------
+status -        <module> - 373 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 374 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 375 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 376 - INFO - ==============================================================================
+status -        <module> - 353 - INFO - ==============================================================================
+status -        <module> - 354 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 355 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 357 - INFO - ----------------           2018-06-20 | 11:21:30          --------------------
+status -        <module> - 359 - INFO - ==============================================================================
+status -            main - 210 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 234 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 235 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 236 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 241 - DEBUG - number of sheets: 1
+status -       read_xlsx - 244 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 218 - DEBUG - # of Specs: 9
+status -            main - 219 - DEBUG - --------------------------------------------------
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 2.7410350663484962e-08
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 4.053520964727667e-06
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 2.7410350663484962e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 0.0009829284129534144
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.780933733485581
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 2.460676093616091e-05
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 7.94502091953401e-07
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 2.460676093616091e-05
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 1.8369139101353442e-06
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.11817440345049197
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 2.2576121769674957e-09
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 1.5485099134879635e-05
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 2.2576121769674957e-09
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 0.10658491303301151
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.9982549054436022
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 1.707853653740923e-08
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 6.701348264654648e-05
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 1.707853653740923e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 0.26365848579401685
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.9986561598615571
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 2.499250008985179e-08
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 8.47211938194156e-05
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 2.499250008985179e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 0.28796725359457576
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.9986554201408329
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 2.448570938950802e-08
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 6.421530994015936e-05
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 2.448570938950802e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 0.1689955277276818
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.9982622122738404
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 2.0015400097770997e-08
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 6.226114665467954e-05
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 2.0015400097770997e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 0.19430271929217396
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.9983792300323259
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 2.6898890112287412e-08
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 9.420802037310922e-05
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 2.6898890112287412e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 0.33079741781817124
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.9987105603460015
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 1.895259821828115e-08
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 8.496689504848728e-05
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 1.895259821828115e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 0.3818434279409475
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.998786606687644
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 371 - INFO - ==============================================================================
+status -        <module> - 373 - INFO - ----------------            2018-06-20 | 11:21:30         --------------------
+status -        <module> - 375 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 376 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 377 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 378 - INFO - ==============================================================================
+status -        <module> - 353 - INFO - ==============================================================================
+status -        <module> - 354 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 355 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 357 - INFO - ----------------           2018-06-20 | 11:22:01          --------------------
+status -        <module> - 359 - INFO - ==============================================================================
+status -            main - 210 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 234 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 235 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 236 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 241 - DEBUG - number of sheets: 1
+status -       read_xlsx - 244 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 218 - DEBUG - # of Specs: 9
+status -            main - 219 - DEBUG - --------------------------------------------------
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 2.7410350663484962e-08
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 4.053520964727667e-06
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 4.053520964727667e-06
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 0.0009829284129534144
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.780933733485581
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 2.460676093616091e-05
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 7.94502091953401e-07
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 7.94502091953401e-07
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 1.8369139101353442e-06
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.11817440345049197
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 2.2576121769674957e-09
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 1.5485099134879635e-05
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 1.5485099134879618e-05
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 0.10658491303301151
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.9982549054436022
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 1.707853653740923e-08
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 6.701348264654648e-05
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 6.701348264654653e-05
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 0.26365848579401685
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.9986561598615571
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 2.499250008985179e-08
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 8.47211938194156e-05
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 8.472119381941563e-05
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 0.28796725359457576
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.9986554201408329
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 2.448570938950802e-08
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 6.421530994015936e-05
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 6.421530994015935e-05
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 0.1689955277276818
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.9982622122738404
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 2.0015400097770997e-08
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 6.226114665467954e-05
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 6.226114665467955e-05
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 0.19430271929217396
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.9983792300323259
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 2.6898890112287412e-08
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 9.420802037310922e-05
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 9.420802037310932e-05
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 0.33079741781817124
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.9987105603460015
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status - exp_correlation - 170 - DEBUG - pcov[1][1]: 1.895259821828115e-08
+status - exp_correlation - 171 - DEBUG - pcov[2][1]: 8.496689504848728e-05
+status - exp_correlation - 172 - DEBUG - pcov[1][2]: 8.496689504848747e-05
+status - exp_correlation - 173 - DEBUG - pcov[2][2]: 0.3818434279409475
+status - exp_correlation - 174 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.998786606687644
+status -            main - 222 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 371 - INFO - ==============================================================================
+status -        <module> - 373 - INFO - ----------------            2018-06-20 | 11:22:01         --------------------
+status -        <module> - 375 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 376 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 377 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 378 - INFO - ==============================================================================
+status -        <module> - 355 - INFO - ==============================================================================
+status -        <module> - 356 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 357 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 359 - INFO - ----------------           2018-06-20 | 11:26:17          --------------------
+status -        <module> - 361 - INFO - ==============================================================================
+status -            main - 212 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 236 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 237 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 243 - DEBUG - number of sheets: 1
+status -       read_xlsx - 246 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 220 - DEBUG - # of Specs: 9
+status -            main - 221 - DEBUG - --------------------------------------------------
+status -        <module> - 355 - INFO - ==============================================================================
+status -        <module> - 356 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 357 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 359 - INFO - ----------------           2018-06-20 | 11:26:59          --------------------
+status -        <module> - 361 - INFO - ==============================================================================
+status -            main - 212 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 236 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 237 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 243 - DEBUG - number of sheets: 1
+status -       read_xlsx - 246 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 220 - DEBUG - # of Specs: 9
+status -            main - 221 - DEBUG - --------------------------------------------------
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 2.7410350663484962e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 4.053520964727667e-06
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 4.053520964727667e-06
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 0.0009829284129534144
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -8.320321890847178e-09
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 2.460676093616091e-05
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 7.94502091953401e-07
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 7.94502091953401e-07
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 1.8369139101353442e-06
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -2.562886046474569e-10
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 2.2576121769674957e-09
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 1.5485099134879635e-05
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 1.5485099134879618e-05
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 0.10658491303301151
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 4.955707793208353e-06
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 1.707853653740923e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 6.701348264654648e-05
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 6.701348264654653e-05
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 0.26365848579401685
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 3.3888610425970626e-05
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 2.499250008985179e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 8.47211938194156e-05
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 8.472119381941563e-05
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 0.28796725359457576
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 4.477448501948579e-05
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 2.448570938950802e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 6.421530994015936e-05
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 6.421530994015935e-05
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 0.1689955277276818
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 2.5879572101195753e-05
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 2.0015400097770997e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 6.226114665467954e-05
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 6.226114665467955e-05
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 0.19430271929217396
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 2.694202763193503e-05
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 2.6898890112287412e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 9.420802037310922e-05
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 9.420802037310932e-05
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 0.33079741781817124
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 5.339652990827078e-05
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 1.895259821828115e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 8.496689504848728e-05
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 8.496689504848747e-05
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 0.3818434279409475
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 5.1786685901548444e-05
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 373 - INFO - ==============================================================================
+status -        <module> - 375 - INFO - ----------------            2018-06-20 | 11:26:59         --------------------
+status -        <module> - 377 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 378 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 379 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 380 - INFO - ==============================================================================
+status -        <module> - 355 - INFO - ==============================================================================
+status -        <module> - 356 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 357 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 359 - INFO - ----------------           2018-06-20 | 11:27:23          --------------------
+status -        <module> - 361 - INFO - ==============================================================================
+status -            main - 212 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 236 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 237 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 243 - DEBUG - number of sheets: 1
+status -       read_xlsx - 246 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 220 - DEBUG - # of Specs: 9
+status -            main - 221 - DEBUG - --------------------------------------------------
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 2.7410350663484962e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 4.053520964727667e-06
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 4.053520964727667e-06
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 0.0009829284129534144
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.37171648757103526
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 2.460676093616091e-05
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 7.94502091953401e-07
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 7.94502091953401e-07
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 1.8369139101353442e-06
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.608261639040011
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 2.2576121769674957e-09
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 1.5485099134879635e-05
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 1.5485099134879618e-05
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 0.10658491303301151
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9972507605547373
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 1.707853653740923e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 6.701348264654648e-05
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 6.701348264654653e-05
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 0.26365848579401685
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.99799665232169
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 2.499250008985179e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 8.47211938194156e-05
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 8.472119381941563e-05
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 0.28796725359457576
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9979953309193302
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 2.448570938950802e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 6.421530994015936e-05
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 6.421530994015935e-05
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 0.1689955277276818
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9972648540771482
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 2.0015400097770997e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 6.226114665467954e-05
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 6.226114665467955e-05
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 0.19430271929217396
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9974880123433699
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 2.6898890112287412e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 9.420802037310922e-05
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 9.420802037310932e-05
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 0.33079741781817124
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9980932707645298
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status - exp_correlation - 172 - DEBUG - pcov[1][1]: 1.895259821828115e-08
+status - exp_correlation - 173 - DEBUG - pcov[2][1]: 8.496689504848728e-05
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 8.496689504848747e-05
+status - exp_correlation - 175 - DEBUG - pcov[2][2]: 0.3818434279409475
+status - exp_correlation - 176 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9982264705072721
+status -            main - 224 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 373 - INFO - ==============================================================================
+status -        <module> - 375 - INFO - ----------------            2018-06-20 | 11:27:23         --------------------
+status -        <module> - 377 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 378 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 379 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 380 - INFO - ==============================================================================
+status -        <module> - 354 - INFO - ==============================================================================
+status -        <module> - 355 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 356 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 358 - INFO - ----------------           2018-06-20 | 11:28:39          --------------------
+status -        <module> - 360 - INFO - ==============================================================================
+status -            main - 211 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 235 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 236 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 237 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 242 - DEBUG - number of sheets: 1
+status -       read_xlsx - 245 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 219 - DEBUG - # of Specs: 9
+status -            main - 220 - DEBUG - --------------------------------------------------
+status - exp_correlation - 172 - DEBUG - pcov[0][1]: 3.946584288278965e-06
+status - exp_correlation - 173 - DEBUG - pcov[0][2]: -0.00017312381932316535
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 4.053520964727667e-06
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.37171648757103526
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status - exp_correlation - 172 - DEBUG - pcov[0][1]: 7.76019705724002e-05
+status - exp_correlation - 173 - DEBUG - pcov[0][2]: -7.187671580836125e-07
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 7.94502091953401e-07
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.608261639040011
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status - exp_correlation - 172 - DEBUG - pcov[0][1]: -1.5208343004793685e-05
+status - exp_correlation - 173 - DEBUG - pcov[0][2]: -0.10476957741787303
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 1.5485099134879618e-05
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9972507605547373
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status - exp_correlation - 172 - DEBUG - pcov[0][1]: -6.609289662084482e-05
+status - exp_correlation - 173 - DEBUG - pcov[0][2]: -0.26018566486903977
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 6.701348264654653e-05
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.99799665232169
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status - exp_correlation - 172 - DEBUG - pcov[0][1]: -8.355670660677977e-05
+status - exp_correlation - 173 - DEBUG - pcov[0][2]: -0.28417219074215067
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 8.472119381941563e-05
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9979953309193302
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status - exp_correlation - 172 - DEBUG - pcov[0][1]: -6.30724653289396e-05
+status - exp_correlation - 173 - DEBUG - pcov[0][2]: -0.1661290571747895
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 6.421530994015935e-05
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9972648540771482
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status - exp_correlation - 172 - DEBUG - pcov[0][1]: -6.12281875666261e-05
+status - exp_correlation - 173 - DEBUG - pcov[0][2]: -0.19122510879255553
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 6.226114665467955e-05
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9974880123433699
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status - exp_correlation - 172 - DEBUG - pcov[0][1]: -9.296662991075424e-05
+status - exp_correlation - 173 - DEBUG - pcov[0][2]: -0.326614216514143
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 9.420802037310932e-05
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9980932707645298
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status - exp_correlation - 172 - DEBUG - pcov[0][1]: -8.391379394313816e-05
+status - exp_correlation - 173 - DEBUG - pcov[0][2]: -0.3772957811727879
+status - exp_correlation - 174 - DEBUG - pcov[1][2]: 8.496689504848747e-05
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9982264705072721
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 372 - INFO - ==============================================================================
+status -        <module> - 374 - INFO - ----------------            2018-06-20 | 11:28:39         --------------------
+status -        <module> - 376 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 377 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 378 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 379 - INFO - ==============================================================================
+status -        <module> - 354 - INFO - ==============================================================================
+status -        <module> - 355 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 356 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 358 - INFO - ----------------           2018-06-20 | 11:29:15          --------------------
+status -        <module> - 360 - INFO - ==============================================================================
+status -            main - 211 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 235 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 236 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 237 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 242 - DEBUG - number of sheets: 1
+status -       read_xlsx - 245 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 219 - DEBUG - # of Specs: 9
+status -            main - 220 - DEBUG - --------------------------------------------------
+status - exp_correlation - 172 - DEBUG - pcov[0][1], Cov(a,b): 3.946584288278965e-06
+status - exp_correlation - 173 - DEBUG - pcov[0][2], Cov(a,c): -0.00017312381932316535
+status - exp_correlation - 174 - DEBUG - pcov[1][2], Cov(b,c): 4.053520964727667e-06
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.37171648757103526
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status - exp_correlation - 172 - DEBUG - pcov[0][1], Cov(a,b): 7.76019705724002e-05
+status - exp_correlation - 173 - DEBUG - pcov[0][2], Cov(a,c): -7.187671580836125e-07
+status - exp_correlation - 174 - DEBUG - pcov[1][2], Cov(b,c): 7.94502091953401e-07
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): 0.608261639040011
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status - exp_correlation - 172 - DEBUG - pcov[0][1], Cov(a,b): -1.5208343004793685e-05
+status - exp_correlation - 173 - DEBUG - pcov[0][2], Cov(a,c): -0.10476957741787303
+status - exp_correlation - 174 - DEBUG - pcov[1][2], Cov(b,c): 1.5485099134879618e-05
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9972507605547373
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status - exp_correlation - 172 - DEBUG - pcov[0][1], Cov(a,b): -6.609289662084482e-05
+status - exp_correlation - 173 - DEBUG - pcov[0][2], Cov(a,c): -0.26018566486903977
+status - exp_correlation - 174 - DEBUG - pcov[1][2], Cov(b,c): 6.701348264654653e-05
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.99799665232169
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status - exp_correlation - 172 - DEBUG - pcov[0][1], Cov(a,b): -8.355670660677977e-05
+status - exp_correlation - 173 - DEBUG - pcov[0][2], Cov(a,c): -0.28417219074215067
+status - exp_correlation - 174 - DEBUG - pcov[1][2], Cov(b,c): 8.472119381941563e-05
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9979953309193302
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status - exp_correlation - 172 - DEBUG - pcov[0][1], Cov(a,b): -6.30724653289396e-05
+status - exp_correlation - 173 - DEBUG - pcov[0][2], Cov(a,c): -0.1661290571747895
+status - exp_correlation - 174 - DEBUG - pcov[1][2], Cov(b,c): 6.421530994015935e-05
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9972648540771482
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status - exp_correlation - 172 - DEBUG - pcov[0][1], Cov(a,b): -6.12281875666261e-05
+status - exp_correlation - 173 - DEBUG - pcov[0][2], Cov(a,c): -0.19122510879255553
+status - exp_correlation - 174 - DEBUG - pcov[1][2], Cov(b,c): 6.226114665467955e-05
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9974880123433699
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status - exp_correlation - 172 - DEBUG - pcov[0][1], Cov(a,b): -9.296662991075424e-05
+status - exp_correlation - 173 - DEBUG - pcov[0][2], Cov(a,c): -0.326614216514143
+status - exp_correlation - 174 - DEBUG - pcov[1][2], Cov(b,c): 9.420802037310932e-05
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9980932707645298
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status - exp_correlation - 172 - DEBUG - pcov[0][1], Cov(a,b): -8.391379394313816e-05
+status - exp_correlation - 173 - DEBUG - pcov[0][2], Cov(a,c): -0.3772957811727879
+status - exp_correlation - 174 - DEBUG - pcov[1][2], Cov(b,c): 8.496689504848747e-05
+status - exp_correlation - 175 - DEBUG - Cov(a,b)/sqrt(Var(a)* Var(b)): -0.9982264705072721
+status -            main - 223 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 372 - INFO - ==============================================================================
+status -        <module> - 374 - INFO - ----------------            2018-06-20 | 11:29:15         --------------------
+status -        <module> - 376 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 377 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 378 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 379 - INFO - ==============================================================================
+status -        <module> - 361 - INFO - ==============================================================================
+status -        <module> - 362 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 363 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 365 - INFO - ----------------           2018-06-20 | 11:33:25          --------------------
+status -        <module> - 367 - INFO - ==============================================================================
+status -            main - 218 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 242 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 243 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 244 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 249 - DEBUG - number of sheets: 1
+status -       read_xlsx - 252 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 226 - DEBUG - # of Specs: 9
+status -            main - 227 - DEBUG - --------------------------------------------------
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.99999999999995
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999998
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999993
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999791
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999972
+status -        <module> - 379 - INFO - ==============================================================================
+status -        <module> - 381 - INFO - ----------------            2018-06-20 | 11:33:25         --------------------
+status -        <module> - 383 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 384 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 385 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 386 - INFO - ==============================================================================
+status -        <module> - 359 - INFO - ==============================================================================
+status -        <module> - 360 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 361 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 363 - INFO - ----------------           2018-06-20 | 11:34:52          --------------------
+status -        <module> - 365 - INFO - ==============================================================================
+status -            main - 216 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 240 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 241 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 242 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 247 - DEBUG - number of sheets: 1
+status -       read_xlsx - 250 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 224 - DEBUG - # of Specs: 9
+status -            main - 225 - DEBUG - --------------------------------------------------
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.8812207147587359e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  23220.335726275975
+status -            main - 228 - DEBUG - Exp. Fit,   R: 1.0
+status - exp_correlation - 179 - DEBUG - ss_res   =  9.97158892854789e-16
+status - exp_correlation - 180 - DEBUG - ss_total =  139.81007899011044
+status -            main - 228 - DEBUG - Exp. Fit,   R: 1.0
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.801477805875389e-18
+status - exp_correlation - 180 - DEBUG - ss_total =  3718.4733691278116
+status -            main - 228 - DEBUG - Exp. Fit,   R: 1.0
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.63170564426848e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  727.5657205003241
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.99999999999995
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.017720538760603e-14
+status - exp_correlation - 180 - DEBUG - ss_total =  544.7150660646607
+status -            main - 228 - DEBUG - Exp. Fit,   R: 1.0
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.020841659709606e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  542.194221739972
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9999999999999998
+status - exp_correlation - 179 - DEBUG - ss_res   =  4.578258420133124e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  663.6100949649749
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9999999999999993
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.1163384659694808e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  535.3253128968871
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9999999999999791
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.141023847013439e-12
+status - exp_correlation - 180 - DEBUG - ss_total =  775.8031551141739
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9999999999999972
+status -        <module> - 377 - INFO - ==============================================================================
+status -        <module> - 379 - INFO - ----------------            2018-06-20 | 11:34:53         --------------------
+status -        <module> - 381 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 382 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 383 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 384 - INFO - ==============================================================================
+status -        <module> - 359 - INFO - ==============================================================================
+status -        <module> - 360 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 361 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 363 - INFO - ----------------           2018-06-20 | 11:35:53          --------------------
+status -        <module> - 365 - INFO - ==============================================================================
+status -            main - 216 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 240 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 241 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 242 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 247 - DEBUG - number of sheets: 1
+status -       read_xlsx - 250 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 224 - DEBUG - # of Specs: 9
+status -            main - 225 - DEBUG - --------------------------------------------------
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.8812207147587359e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  23220.335726275975
+status -            main - 228 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.004112486867447313, 2*SIG_A: 0.12825734859956076
+status -          exp_cb - 127 - DEBUG - VAR B: 2.7410350663484962e-08, 2*SIG_A: 0.0003311214318855544
+status -          exp_cb - 128 - DEBUG - VAR C: 0.0009829284129534144, 2*SIG_A: 0.0003311214318855544
+status - exp_correlation - 179 - DEBUG - ss_res   =  9.97158892854789e-16
+status - exp_correlation - 180 - DEBUG - ss_total =  139.81007899011044
+status -            main - 228 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.0006614700628869093, 2*SIG_A: 0.051438120606682715
+status -          exp_cb - 127 - DEBUG - VAR B: 2.460676093616091e-05, 2*SIG_A: 0.009921040456758737
+status -          exp_cb - 128 - DEBUG - VAR C: 1.8369139101353442e-06, 2*SIG_A: 0.009921040456758737
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.801477805875389e-18
+status - exp_correlation - 180 - DEBUG - ss_total =  3718.4733691278116
+status -            main - 228 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.10301624286893012, 2*SIG_A: 0.6419228703479262
+status -          exp_cb - 127 - DEBUG - VAR B: 2.2576121769674957e-09, 2*SIG_A: 9.502867308275952e-05
+status -          exp_cb - 128 - DEBUG - VAR C: 0.10658491303301151, 2*SIG_A: 9.502867308275952e-05
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.63170564426848e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  727.5657205003241
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.99999999999995
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2568033883298925, 2*SIG_A: 1.0135154430592412
+status -          exp_cb - 127 - DEBUG - VAR B: 1.707853653740923e-08, 2*SIG_A: 0.00026136974987484094
+status -          exp_cb - 128 - DEBUG - VAR C: 0.26365848579401685, 2*SIG_A: 0.00026136974987484094
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.017720538760603e-14
+status - exp_correlation - 180 - DEBUG - ss_total =  544.7150660646607
+status -            main - 228 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2804761300776855, 2*SIG_A: 1.05919994350016
+status -          exp_cb - 127 - DEBUG - VAR B: 2.499250008985179e-08, 2*SIG_A: 0.0003161803288621972
+status -          exp_cb - 128 - DEBUG - VAR C: 0.28796725359457576, 2*SIG_A: 0.0003161803288621972
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.020841659709606e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  542.194221739972
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9999999999999998
+status -          exp_cb - 126 - DEBUG - VAR A: 0.163360064093526, 2*SIG_A: 0.8083565156378119
+status -          exp_cb - 127 - DEBUG - VAR B: 2.448570938950802e-08, 2*SIG_A: 0.0003129582041711514
+status -          exp_cb - 128 - DEBUG - VAR C: 0.1689955277276818, 2*SIG_A: 0.0003129582041711514
+status - exp_correlation - 179 - DEBUG - ss_res   =  4.578258420133124e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  663.6100949649749
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9999999999999993
+status -          exp_cb - 126 - DEBUG - VAR A: 0.18824487523388597, 2*SIG_A: 0.8677439143754013
+status -          exp_cb - 127 - DEBUG - VAR B: 2.0015400097770997e-08, 2*SIG_A: 0.0002829515866558871
+status -          exp_cb - 128 - DEBUG - VAR C: 0.19430271929217396, 2*SIG_A: 0.0002829515866558871
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.1163384659694808e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  535.3253128968871
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9999999999999791
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3225355278107167, 2*SIG_A: 1.135844228423452
+status -          exp_cb - 127 - DEBUG - VAR B: 2.6898890112287412e-08, 2*SIG_A: 0.0003280176221625138
+status -          exp_cb - 128 - DEBUG - VAR C: 0.33079741781817124, 2*SIG_A: 0.0003280176221625138
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.141023847013439e-12
+status - exp_correlation - 180 - DEBUG - ss_total =  775.8031551141739
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9999999999999972
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3728548476183103, 2*SIG_A: 1.221236828167756
+status -          exp_cb - 127 - DEBUG - VAR B: 1.895259821828115e-08, 2*SIG_A: 0.0002753368716193394
+status -          exp_cb - 128 - DEBUG - VAR C: 0.3818434279409475, 2*SIG_A: 0.0002753368716193394
+status -        <module> - 377 - INFO - ==============================================================================
+status -        <module> - 379 - INFO - ----------------            2018-06-20 | 11:36:42         --------------------
+status -        <module> - 381 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 382 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 383 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 384 - INFO - ==============================================================================
+status -        <module> - 361 - INFO - ==============================================================================
+status -        <module> - 362 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 363 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 365 - INFO - ----------------           2018-06-20 | 11:38:04          --------------------
+status -        <module> - 367 - INFO - ==============================================================================
+status -            main - 218 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 242 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 243 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 244 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 249 - DEBUG - number of sheets: 1
+status -       read_xlsx - 252 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 226 - DEBUG - # of Specs: 9
+status -            main - 227 - DEBUG - --------------------------------------------------
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.8812207147587359e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  23220.335726275975
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.004112486867447313, 2*SIG_A: 0.12825734859956076
+status -          exp_cb - 127 - DEBUG - VAR B: 2.7410350663484962e-08, 2*SIG_A: 0.0003311214318855544
+status -          exp_cb - 128 - DEBUG - VAR C: 0.0009829284129534144, 2*SIG_A: 0.0003311214318855544
+status - exp_correlation - 179 - DEBUG - ss_res   =  9.97158892854789e-16
+status - exp_correlation - 180 - DEBUG - ss_total =  139.81007899011044
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.0006614700628869093, 2*SIG_A: 0.051438120606682715
+status -          exp_cb - 127 - DEBUG - VAR B: 2.460676093616091e-05, 2*SIG_A: 0.009921040456758737
+status -          exp_cb - 128 - DEBUG - VAR C: 1.8369139101353442e-06, 2*SIG_A: 0.009921040456758737
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.801477805875389e-18
+status - exp_correlation - 180 - DEBUG - ss_total =  3718.4733691278116
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.10301624286893012, 2*SIG_A: 0.6419228703479262
+status -          exp_cb - 127 - DEBUG - VAR B: 2.2576121769674957e-09, 2*SIG_A: 9.502867308275952e-05
+status -          exp_cb - 128 - DEBUG - VAR C: 0.10658491303301151, 2*SIG_A: 9.502867308275952e-05
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.63170564426848e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  727.5657205003241
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.99999999999995
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2568033883298925, 2*SIG_A: 1.0135154430592412
+status -          exp_cb - 127 - DEBUG - VAR B: 1.707853653740923e-08, 2*SIG_A: 0.00026136974987484094
+status -          exp_cb - 128 - DEBUG - VAR C: 0.26365848579401685, 2*SIG_A: 0.00026136974987484094
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.017720538760603e-14
+status - exp_correlation - 180 - DEBUG - ss_total =  544.7150660646607
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2804761300776855, 2*SIG_A: 1.05919994350016
+status -          exp_cb - 127 - DEBUG - VAR B: 2.499250008985179e-08, 2*SIG_A: 0.0003161803288621972
+status -          exp_cb - 128 - DEBUG - VAR C: 0.28796725359457576, 2*SIG_A: 0.0003161803288621972
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.020841659709606e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  542.194221739972
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999998
+status -          exp_cb - 126 - DEBUG - VAR A: 0.163360064093526, 2*SIG_A: 0.8083565156378119
+status -          exp_cb - 127 - DEBUG - VAR B: 2.448570938950802e-08, 2*SIG_A: 0.0003129582041711514
+status -          exp_cb - 128 - DEBUG - VAR C: 0.1689955277276818, 2*SIG_A: 0.0003129582041711514
+status - exp_correlation - 179 - DEBUG - ss_res   =  4.578258420133124e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  663.6100949649749
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999993
+status -          exp_cb - 126 - DEBUG - VAR A: 0.18824487523388597, 2*SIG_A: 0.8677439143754013
+status -          exp_cb - 127 - DEBUG - VAR B: 2.0015400097770997e-08, 2*SIG_A: 0.0002829515866558871
+status -          exp_cb - 128 - DEBUG - VAR C: 0.19430271929217396, 2*SIG_A: 0.0002829515866558871
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.1163384659694808e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  535.3253128968871
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999791
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3225355278107167, 2*SIG_A: 1.135844228423452
+status -          exp_cb - 127 - DEBUG - VAR B: 2.6898890112287412e-08, 2*SIG_A: 0.0003280176221625138
+status -          exp_cb - 128 - DEBUG - VAR C: 0.33079741781817124, 2*SIG_A: 0.0003280176221625138
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.141023847013439e-12
+status - exp_correlation - 180 - DEBUG - ss_total =  775.8031551141739
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999972
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3728548476183103, 2*SIG_A: 1.221236828167756
+status -          exp_cb - 127 - DEBUG - VAR B: 1.895259821828115e-08, 2*SIG_A: 0.0002753368716193394
+status -          exp_cb - 128 - DEBUG - VAR C: 0.3818434279409475, 2*SIG_A: 0.0002753368716193394
+status -        <module> - 379 - INFO - ==============================================================================
+status -        <module> - 381 - INFO - ----------------            2018-06-20 | 11:39:01         --------------------
+status -        <module> - 383 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 384 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 385 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 386 - INFO - ==============================================================================
+status -        <module> - 361 - INFO - ==============================================================================
+status -        <module> - 362 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 363 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 365 - INFO - ----------------           2018-06-20 | 11:39:04          --------------------
+status -        <module> - 367 - INFO - ==============================================================================
+status -            main - 218 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 242 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 243 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 244 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 249 - DEBUG - number of sheets: 1
+status -       read_xlsx - 252 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 226 - DEBUG - # of Specs: 9
+status -            main - 227 - DEBUG - --------------------------------------------------
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.8812207147587359e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  23220.335726275975
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.004112486867447313, 2*SIG_A: 0.12825734859956076
+status -          exp_cb - 127 - DEBUG - VAR B: 2.7410350663484962e-08, 2*SIG_A: 0.0003311214318855544
+status -          exp_cb - 128 - DEBUG - VAR C: 0.0009829284129534144, 2*SIG_A: 0.0003311214318855544
+status - exp_correlation - 179 - DEBUG - ss_res   =  9.97158892854789e-16
+status - exp_correlation - 180 - DEBUG - ss_total =  139.81007899011044
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.0006614700628869093, 2*SIG_A: 0.051438120606682715
+status -          exp_cb - 127 - DEBUG - VAR B: 2.460676093616091e-05, 2*SIG_A: 0.009921040456758737
+status -          exp_cb - 128 - DEBUG - VAR C: 1.8369139101353442e-06, 2*SIG_A: 0.009921040456758737
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.801477805875389e-18
+status - exp_correlation - 180 - DEBUG - ss_total =  3718.4733691278116
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.10301624286893012, 2*SIG_A: 0.6419228703479262
+status -          exp_cb - 127 - DEBUG - VAR B: 2.2576121769674957e-09, 2*SIG_A: 9.502867308275952e-05
+status -          exp_cb - 128 - DEBUG - VAR C: 0.10658491303301151, 2*SIG_A: 9.502867308275952e-05
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.63170564426848e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  727.5657205003241
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.99999999999995
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2568033883298925, 2*SIG_A: 1.0135154430592412
+status -          exp_cb - 127 - DEBUG - VAR B: 1.707853653740923e-08, 2*SIG_A: 0.00026136974987484094
+status -          exp_cb - 128 - DEBUG - VAR C: 0.26365848579401685, 2*SIG_A: 0.00026136974987484094
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.017720538760603e-14
+status - exp_correlation - 180 - DEBUG - ss_total =  544.7150660646607
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2804761300776855, 2*SIG_A: 1.05919994350016
+status -          exp_cb - 127 - DEBUG - VAR B: 2.499250008985179e-08, 2*SIG_A: 0.0003161803288621972
+status -          exp_cb - 128 - DEBUG - VAR C: 0.28796725359457576, 2*SIG_A: 0.0003161803288621972
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.020841659709606e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  542.194221739972
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999998
+status -          exp_cb - 126 - DEBUG - VAR A: 0.163360064093526, 2*SIG_A: 0.8083565156378119
+status -          exp_cb - 127 - DEBUG - VAR B: 2.448570938950802e-08, 2*SIG_A: 0.0003129582041711514
+status -          exp_cb - 128 - DEBUG - VAR C: 0.1689955277276818, 2*SIG_A: 0.0003129582041711514
+status - exp_correlation - 179 - DEBUG - ss_res   =  4.578258420133124e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  663.6100949649749
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999993
+status -          exp_cb - 126 - DEBUG - VAR A: 0.18824487523388597, 2*SIG_A: 0.8677439143754013
+status -          exp_cb - 127 - DEBUG - VAR B: 2.0015400097770997e-08, 2*SIG_A: 0.0002829515866558871
+status -          exp_cb - 128 - DEBUG - VAR C: 0.19430271929217396, 2*SIG_A: 0.0002829515866558871
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.1163384659694808e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  535.3253128968871
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999791
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3225355278107167, 2*SIG_A: 1.135844228423452
+status -          exp_cb - 127 - DEBUG - VAR B: 2.6898890112287412e-08, 2*SIG_A: 0.0003280176221625138
+status -          exp_cb - 128 - DEBUG - VAR C: 0.33079741781817124, 2*SIG_A: 0.0003280176221625138
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.141023847013439e-12
+status - exp_correlation - 180 - DEBUG - ss_total =  775.8031551141739
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999972
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3728548476183103, 2*SIG_A: 1.221236828167756
+status -          exp_cb - 127 - DEBUG - VAR B: 1.895259821828115e-08, 2*SIG_A: 0.0002753368716193394
+status -          exp_cb - 128 - DEBUG - VAR C: 0.3818434279409475, 2*SIG_A: 0.0002753368716193394
+status -        <module> - 379 - INFO - ==============================================================================
+status -        <module> - 381 - INFO - ----------------            2018-06-20 | 11:39:24         --------------------
+status -        <module> - 383 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 384 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 385 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 386 - INFO - ==============================================================================
+status -        <module> - 361 - INFO - ==============================================================================
+status -        <module> - 362 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 363 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 365 - INFO - ----------------           2018-06-20 | 11:39:26          --------------------
+status -        <module> - 367 - INFO - ==============================================================================
+status -            main - 218 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 242 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 243 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 244 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 249 - DEBUG - number of sheets: 1
+status -       read_xlsx - 252 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 226 - DEBUG - # of Specs: 9
+status -            main - 227 - DEBUG - --------------------------------------------------
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.8812207147587359e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  23220.335726275975
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.004112486867447313, 2*SIG_A: 0.12825734859956076
+status -          exp_cb - 127 - DEBUG - VAR B: 2.7410350663484962e-08, 2*SIG_A: 0.0003311214318855544
+status -          exp_cb - 128 - DEBUG - VAR C: 0.0009829284129534144, 2*SIG_A: 0.0003311214318855544
+status - exp_correlation - 179 - DEBUG - ss_res   =  9.97158892854789e-16
+status - exp_correlation - 180 - DEBUG - ss_total =  139.81007899011044
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.0006614700628869093, 2*SIG_A: 0.051438120606682715
+status -          exp_cb - 127 - DEBUG - VAR B: 2.460676093616091e-05, 2*SIG_A: 0.009921040456758737
+status -          exp_cb - 128 - DEBUG - VAR C: 1.8369139101353442e-06, 2*SIG_A: 0.009921040456758737
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.801477805875389e-18
+status - exp_correlation - 180 - DEBUG - ss_total =  3718.4733691278116
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.10301624286893012, 2*SIG_A: 0.6419228703479262
+status -          exp_cb - 127 - DEBUG - VAR B: 2.2576121769674957e-09, 2*SIG_A: 9.502867308275952e-05
+status -          exp_cb - 128 - DEBUG - VAR C: 0.10658491303301151, 2*SIG_A: 9.502867308275952e-05
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.63170564426848e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  727.5657205003241
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.99999999999995
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2568033883298925, 2*SIG_A: 1.0135154430592412
+status -          exp_cb - 127 - DEBUG - VAR B: 1.707853653740923e-08, 2*SIG_A: 0.00026136974987484094
+status -          exp_cb - 128 - DEBUG - VAR C: 0.26365848579401685, 2*SIG_A: 0.00026136974987484094
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.017720538760603e-14
+status - exp_correlation - 180 - DEBUG - ss_total =  544.7150660646607
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2804761300776855, 2*SIG_A: 1.05919994350016
+status -          exp_cb - 127 - DEBUG - VAR B: 2.499250008985179e-08, 2*SIG_A: 0.0003161803288621972
+status -          exp_cb - 128 - DEBUG - VAR C: 0.28796725359457576, 2*SIG_A: 0.0003161803288621972
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.020841659709606e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  542.194221739972
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999998
+status -          exp_cb - 126 - DEBUG - VAR A: 0.163360064093526, 2*SIG_A: 0.8083565156378119
+status -          exp_cb - 127 - DEBUG - VAR B: 2.448570938950802e-08, 2*SIG_A: 0.0003129582041711514
+status -          exp_cb - 128 - DEBUG - VAR C: 0.1689955277276818, 2*SIG_A: 0.0003129582041711514
+status - exp_correlation - 179 - DEBUG - ss_res   =  4.578258420133124e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  663.6100949649749
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999993
+status -          exp_cb - 126 - DEBUG - VAR A: 0.18824487523388597, 2*SIG_A: 0.8677439143754013
+status -          exp_cb - 127 - DEBUG - VAR B: 2.0015400097770997e-08, 2*SIG_A: 0.0002829515866558871
+status -          exp_cb - 128 - DEBUG - VAR C: 0.19430271929217396, 2*SIG_A: 0.0002829515866558871
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.1163384659694808e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  535.3253128968871
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999791
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3225355278107167, 2*SIG_A: 1.135844228423452
+status -          exp_cb - 127 - DEBUG - VAR B: 2.6898890112287412e-08, 2*SIG_A: 0.0003280176221625138
+status -          exp_cb - 128 - DEBUG - VAR C: 0.33079741781817124, 2*SIG_A: 0.0003280176221625138
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.141023847013439e-12
+status - exp_correlation - 180 - DEBUG - ss_total =  775.8031551141739
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999972
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3728548476183103, 2*SIG_A: 1.221236828167756
+status -          exp_cb - 127 - DEBUG - VAR B: 1.895259821828115e-08, 2*SIG_A: 0.0002753368716193394
+status -          exp_cb - 128 - DEBUG - VAR C: 0.3818434279409475, 2*SIG_A: 0.0002753368716193394
+status -        <module> - 379 - INFO - ==============================================================================
+status -        <module> - 381 - INFO - ----------------            2018-06-20 | 11:42:21         --------------------
+status -        <module> - 383 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 384 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 385 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 386 - INFO - ==============================================================================
+status -        <module> - 362 - INFO - ==============================================================================
+status -        <module> - 363 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 364 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 366 - INFO - ----------------           2018-06-20 | 11:43:16          --------------------
+status -        <module> - 368 - INFO - ==============================================================================
+status -            main - 218 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 243 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 245 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 250 - DEBUG - number of sheets: 1
+status -       read_xlsx - 253 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 226 - DEBUG - # of Specs: 9
+status -            main - 227 - DEBUG - --------------------------------------------------
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.8812207147587359e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  23220.335726275975
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.004112486867447313, 2*SIG_A: 0.12825734859956076
+status -          exp_cb - 127 - DEBUG - VAR B: 2.7410350663484962e-08, 2*SIG_A: 0.0003311214318855544
+status -          exp_cb - 128 - DEBUG - VAR C: 0.0009829284129534144, 2*SIG_A: 0.0003311214318855544
+status - exp_correlation - 179 - DEBUG - ss_res   =  9.97158892854789e-16
+status - exp_correlation - 180 - DEBUG - ss_total =  139.81007899011044
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.0006614700628869093, 2*SIG_A: 0.051438120606682715
+status -          exp_cb - 127 - DEBUG - VAR B: 2.460676093616091e-05, 2*SIG_A: 0.009921040456758737
+status -          exp_cb - 128 - DEBUG - VAR C: 1.8369139101353442e-06, 2*SIG_A: 0.009921040456758737
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.801477805875389e-18
+status - exp_correlation - 180 - DEBUG - ss_total =  3718.4733691278116
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.10301624286893012, 2*SIG_A: 0.6419228703479262
+status -          exp_cb - 127 - DEBUG - VAR B: 2.2576121769674957e-09, 2*SIG_A: 9.502867308275952e-05
+status -          exp_cb - 128 - DEBUG - VAR C: 0.10658491303301151, 2*SIG_A: 9.502867308275952e-05
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.63170564426848e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  727.5657205003241
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.99999999999995
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2568033883298925, 2*SIG_A: 1.0135154430592412
+status -          exp_cb - 127 - DEBUG - VAR B: 1.707853653740923e-08, 2*SIG_A: 0.00026136974987484094
+status -          exp_cb - 128 - DEBUG - VAR C: 0.26365848579401685, 2*SIG_A: 0.00026136974987484094
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.017720538760603e-14
+status - exp_correlation - 180 - DEBUG - ss_total =  544.7150660646607
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2804761300776855, 2*SIG_A: 1.05919994350016
+status -          exp_cb - 127 - DEBUG - VAR B: 2.499250008985179e-08, 2*SIG_A: 0.0003161803288621972
+status -          exp_cb - 128 - DEBUG - VAR C: 0.28796725359457576, 2*SIG_A: 0.0003161803288621972
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.020841659709606e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  542.194221739972
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999998
+status -          exp_cb - 126 - DEBUG - VAR A: 0.163360064093526, 2*SIG_A: 0.8083565156378119
+status -          exp_cb - 127 - DEBUG - VAR B: 2.448570938950802e-08, 2*SIG_A: 0.0003129582041711514
+status -          exp_cb - 128 - DEBUG - VAR C: 0.1689955277276818, 2*SIG_A: 0.0003129582041711514
+status - exp_correlation - 179 - DEBUG - ss_res   =  4.578258420133124e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  663.6100949649749
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999993
+status -          exp_cb - 126 - DEBUG - VAR A: 0.18824487523388597, 2*SIG_A: 0.8677439143754013
+status -          exp_cb - 127 - DEBUG - VAR B: 2.0015400097770997e-08, 2*SIG_A: 0.0002829515866558871
+status -          exp_cb - 128 - DEBUG - VAR C: 0.19430271929217396, 2*SIG_A: 0.0002829515866558871
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.1163384659694808e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  535.3253128968871
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999791
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3225355278107167, 2*SIG_A: 1.135844228423452
+status -          exp_cb - 127 - DEBUG - VAR B: 2.6898890112287412e-08, 2*SIG_A: 0.0003280176221625138
+status -          exp_cb - 128 - DEBUG - VAR C: 0.33079741781817124, 2*SIG_A: 0.0003280176221625138
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.141023847013439e-12
+status - exp_correlation - 180 - DEBUG - ss_total =  775.8031551141739
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999972
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3728548476183103, 2*SIG_A: 1.221236828167756
+status -          exp_cb - 127 - DEBUG - VAR B: 1.895259821828115e-08, 2*SIG_A: 0.0002753368716193394
+status -          exp_cb - 128 - DEBUG - VAR C: 0.3818434279409475, 2*SIG_A: 0.0002753368716193394
+status -        <module> - 380 - INFO - ==============================================================================
+status -        <module> - 382 - INFO - ----------------            2018-06-20 | 11:43:26         --------------------
+status -        <module> - 384 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 385 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 386 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 387 - INFO - ==============================================================================
+status -        <module> - 362 - INFO - ==============================================================================
+status -        <module> - 363 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 364 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 366 - INFO - ----------------           2018-06-20 | 11:44:09          --------------------
+status -        <module> - 368 - INFO - ==============================================================================
+status -            main - 218 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 243 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 245 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 250 - DEBUG - number of sheets: 1
+status -       read_xlsx - 253 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 226 - DEBUG - # of Specs: 9
+status -            main - 227 - DEBUG - --------------------------------------------------
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.8812207147587359e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  23220.335726275975
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.004112486867447313, 2*SIG_A: 0.12825734859956076
+status -          exp_cb - 127 - DEBUG - VAR B: 2.7410350663484962e-08, 2*SIG_A: 0.0003311214318855544
+status -          exp_cb - 128 - DEBUG - VAR C: 0.0009829284129534144, 2*SIG_A: 0.0003311214318855544
+status - exp_correlation - 179 - DEBUG - ss_res   =  9.97158892854789e-16
+status - exp_correlation - 180 - DEBUG - ss_total =  139.81007899011044
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.0006614700628869093, 2*SIG_A: 0.051438120606682715
+status -          exp_cb - 127 - DEBUG - VAR B: 2.460676093616091e-05, 2*SIG_A: 0.009921040456758737
+status -          exp_cb - 128 - DEBUG - VAR C: 1.8369139101353442e-06, 2*SIG_A: 0.009921040456758737
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.801477805875389e-18
+status - exp_correlation - 180 - DEBUG - ss_total =  3718.4733691278116
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.10301624286893012, 2*SIG_A: 0.6419228703479262
+status -          exp_cb - 127 - DEBUG - VAR B: 2.2576121769674957e-09, 2*SIG_A: 9.502867308275952e-05
+status -          exp_cb - 128 - DEBUG - VAR C: 0.10658491303301151, 2*SIG_A: 9.502867308275952e-05
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.63170564426848e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  727.5657205003241
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.99999999999995
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2568033883298925, 2*SIG_A: 1.0135154430592412
+status -          exp_cb - 127 - DEBUG - VAR B: 1.707853653740923e-08, 2*SIG_A: 0.00026136974987484094
+status -          exp_cb - 128 - DEBUG - VAR C: 0.26365848579401685, 2*SIG_A: 0.00026136974987484094
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.017720538760603e-14
+status - exp_correlation - 180 - DEBUG - ss_total =  544.7150660646607
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2804761300776855, 2*SIG_A: 1.05919994350016
+status -          exp_cb - 127 - DEBUG - VAR B: 2.499250008985179e-08, 2*SIG_A: 0.0003161803288621972
+status -          exp_cb - 128 - DEBUG - VAR C: 0.28796725359457576, 2*SIG_A: 0.0003161803288621972
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.020841659709606e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  542.194221739972
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999998
+status -          exp_cb - 126 - DEBUG - VAR A: 0.163360064093526, 2*SIG_A: 0.8083565156378119
+status -          exp_cb - 127 - DEBUG - VAR B: 2.448570938950802e-08, 2*SIG_A: 0.0003129582041711514
+status -          exp_cb - 128 - DEBUG - VAR C: 0.1689955277276818, 2*SIG_A: 0.0003129582041711514
+status - exp_correlation - 179 - DEBUG - ss_res   =  4.578258420133124e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  663.6100949649749
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999993
+status -          exp_cb - 126 - DEBUG - VAR A: 0.18824487523388597, 2*SIG_A: 0.8677439143754013
+status -          exp_cb - 127 - DEBUG - VAR B: 2.0015400097770997e-08, 2*SIG_A: 0.0002829515866558871
+status -          exp_cb - 128 - DEBUG - VAR C: 0.19430271929217396, 2*SIG_A: 0.0002829515866558871
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.1163384659694808e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  535.3253128968871
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999791
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3225355278107167, 2*SIG_A: 1.135844228423452
+status -          exp_cb - 127 - DEBUG - VAR B: 2.6898890112287412e-08, 2*SIG_A: 0.0003280176221625138
+status -          exp_cb - 128 - DEBUG - VAR C: 0.33079741781817124, 2*SIG_A: 0.0003280176221625138
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.141023847013439e-12
+status - exp_correlation - 180 - DEBUG - ss_total =  775.8031551141739
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999972
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3728548476183103, 2*SIG_A: 1.221236828167756
+status -          exp_cb - 127 - DEBUG - VAR B: 1.895259821828115e-08, 2*SIG_A: 0.0002753368716193394
+status -          exp_cb - 128 - DEBUG - VAR C: 0.3818434279409475, 2*SIG_A: 0.0002753368716193394
+status -        <module> - 380 - INFO - ==============================================================================
+status -        <module> - 382 - INFO - ----------------            2018-06-20 | 11:44:29         --------------------
+status -        <module> - 384 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 385 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 386 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 387 - INFO - ==============================================================================
+status -        <module> - 362 - INFO - ==============================================================================
+status -        <module> - 363 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 364 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 366 - INFO - ----------------           2018-06-20 | 11:44:31          --------------------
+status -        <module> - 368 - INFO - ==============================================================================
+status -            main - 218 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 243 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 245 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 250 - DEBUG - number of sheets: 1
+status -       read_xlsx - 253 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 226 - DEBUG - # of Specs: 9
+status -            main - 227 - DEBUG - --------------------------------------------------
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.8812207147587359e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  23220.335726275975
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.004112486867447313, 2*SIG_A: 0.12825734859956076
+status -          exp_cb - 127 - DEBUG - VAR B: 2.7410350663484962e-08, 2*SIG_A: 0.0003311214318855544
+status -          exp_cb - 128 - DEBUG - VAR C: 0.0009829284129534144, 2*SIG_A: 0.0003311214318855544
+status - exp_correlation - 179 - DEBUG - ss_res   =  9.97158892854789e-16
+status - exp_correlation - 180 - DEBUG - ss_total =  139.81007899011044
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.0006614700628869093, 2*SIG_A: 0.051438120606682715
+status -          exp_cb - 127 - DEBUG - VAR B: 2.460676093616091e-05, 2*SIG_A: 0.009921040456758737
+status -          exp_cb - 128 - DEBUG - VAR C: 1.8369139101353442e-06, 2*SIG_A: 0.009921040456758737
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.801477805875389e-18
+status - exp_correlation - 180 - DEBUG - ss_total =  3718.4733691278116
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.10301624286893012, 2*SIG_A: 0.6419228703479262
+status -          exp_cb - 127 - DEBUG - VAR B: 2.2576121769674957e-09, 2*SIG_A: 9.502867308275952e-05
+status -          exp_cb - 128 - DEBUG - VAR C: 0.10658491303301151, 2*SIG_A: 9.502867308275952e-05
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.63170564426848e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  727.5657205003241
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.99999999999995
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2568033883298925, 2*SIG_A: 1.0135154430592412
+status -          exp_cb - 127 - DEBUG - VAR B: 1.707853653740923e-08, 2*SIG_A: 0.00026136974987484094
+status -          exp_cb - 128 - DEBUG - VAR C: 0.26365848579401685, 2*SIG_A: 0.00026136974987484094
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.017720538760603e-14
+status - exp_correlation - 180 - DEBUG - ss_total =  544.7150660646607
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2804761300776855, 2*SIG_A: 1.05919994350016
+status -          exp_cb - 127 - DEBUG - VAR B: 2.499250008985179e-08, 2*SIG_A: 0.0003161803288621972
+status -          exp_cb - 128 - DEBUG - VAR C: 0.28796725359457576, 2*SIG_A: 0.0003161803288621972
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.020841659709606e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  542.194221739972
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999998
+status -          exp_cb - 126 - DEBUG - VAR A: 0.163360064093526, 2*SIG_A: 0.8083565156378119
+status -          exp_cb - 127 - DEBUG - VAR B: 2.448570938950802e-08, 2*SIG_A: 0.0003129582041711514
+status -          exp_cb - 128 - DEBUG - VAR C: 0.1689955277276818, 2*SIG_A: 0.0003129582041711514
+status - exp_correlation - 179 - DEBUG - ss_res   =  4.578258420133124e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  663.6100949649749
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999993
+status -          exp_cb - 126 - DEBUG - VAR A: 0.18824487523388597, 2*SIG_A: 0.8677439143754013
+status -          exp_cb - 127 - DEBUG - VAR B: 2.0015400097770997e-08, 2*SIG_A: 0.0002829515866558871
+status -          exp_cb - 128 - DEBUG - VAR C: 0.19430271929217396, 2*SIG_A: 0.0002829515866558871
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.1163384659694808e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  535.3253128968871
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999791
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3225355278107167, 2*SIG_A: 1.135844228423452
+status -          exp_cb - 127 - DEBUG - VAR B: 2.6898890112287412e-08, 2*SIG_A: 0.0003280176221625138
+status -          exp_cb - 128 - DEBUG - VAR C: 0.33079741781817124, 2*SIG_A: 0.0003280176221625138
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.141023847013439e-12
+status - exp_correlation - 180 - DEBUG - ss_total =  775.8031551141739
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999972
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3728548476183103, 2*SIG_A: 1.221236828167756
+status -          exp_cb - 127 - DEBUG - VAR B: 1.895259821828115e-08, 2*SIG_A: 0.0002753368716193394
+status -          exp_cb - 128 - DEBUG - VAR C: 0.3818434279409475, 2*SIG_A: 0.0002753368716193394
+status -        <module> - 380 - INFO - ==============================================================================
+status -        <module> - 382 - INFO - ----------------            2018-06-20 | 11:45:29         --------------------
+status -        <module> - 384 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 385 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 386 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 387 - INFO - ==============================================================================
+status -        <module> - 362 - INFO - ==============================================================================
+status -        <module> - 363 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 364 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 366 - INFO - ----------------           2018-06-20 | 11:45:31          --------------------
+status -        <module> - 368 - INFO - ==============================================================================
+status -            main - 218 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 243 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 245 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 250 - DEBUG - number of sheets: 1
+status -       read_xlsx - 253 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 226 - DEBUG - # of Specs: 9
+status -            main - 227 - DEBUG - --------------------------------------------------
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.8812207147587359e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  23220.335726275975
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.004112486867447313, 2*SIG_A: 0.12825734859956076
+status -          exp_cb - 127 - DEBUG - VAR B: 2.7410350663484962e-08, 2*SIG_A: 0.0003311214318855544
+status -          exp_cb - 128 - DEBUG - VAR C: 0.0009829284129534144, 2*SIG_A: 0.0003311214318855544
+status -        <module> - 362 - INFO - ==============================================================================
+status -        <module> - 363 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 364 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 366 - INFO - ----------------           2018-06-20 | 11:45:47          --------------------
+status -        <module> - 368 - INFO - ==============================================================================
+status -            main - 218 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 243 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 245 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 250 - DEBUG - number of sheets: 1
+status -       read_xlsx - 253 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 226 - DEBUG - # of Specs: 9
+status -            main - 227 - DEBUG - --------------------------------------------------
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.8812207147587359e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  23220.335726275975
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.004112486867447313, 2*SIG_A: 0.12825734859956076
+status -          exp_cb - 127 - DEBUG - VAR B: 2.7410350663484962e-08, 2*SIG_A: 0.0003311214318855544
+status -          exp_cb - 128 - DEBUG - VAR C: 0.0009829284129534144, 2*SIG_A: 0.0003311214318855544
+status - exp_correlation - 179 - DEBUG - ss_res   =  9.97158892854789e-16
+status - exp_correlation - 180 - DEBUG - ss_total =  139.81007899011044
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.0006614700628869093, 2*SIG_A: 0.051438120606682715
+status -          exp_cb - 127 - DEBUG - VAR B: 2.460676093616091e-05, 2*SIG_A: 0.009921040456758737
+status -          exp_cb - 128 - DEBUG - VAR C: 1.8369139101353442e-06, 2*SIG_A: 0.009921040456758737
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.801477805875389e-18
+status - exp_correlation - 180 - DEBUG - ss_total =  3718.4733691278116
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.10301624286893012, 2*SIG_A: 0.6419228703479262
+status -          exp_cb - 127 - DEBUG - VAR B: 2.2576121769674957e-09, 2*SIG_A: 9.502867308275952e-05
+status -          exp_cb - 128 - DEBUG - VAR C: 0.10658491303301151, 2*SIG_A: 9.502867308275952e-05
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.63170564426848e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  727.5657205003241
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.99999999999995
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2568033883298925, 2*SIG_A: 1.0135154430592412
+status -          exp_cb - 127 - DEBUG - VAR B: 1.707853653740923e-08, 2*SIG_A: 0.00026136974987484094
+status -          exp_cb - 128 - DEBUG - VAR C: 0.26365848579401685, 2*SIG_A: 0.00026136974987484094
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.017720538760603e-14
+status - exp_correlation - 180 - DEBUG - ss_total =  544.7150660646607
+status -            main - 230 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2804761300776855, 2*SIG_A: 1.05919994350016
+status -          exp_cb - 127 - DEBUG - VAR B: 2.499250008985179e-08, 2*SIG_A: 0.0003161803288621972
+status -          exp_cb - 128 - DEBUG - VAR C: 0.28796725359457576, 2*SIG_A: 0.0003161803288621972
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.020841659709606e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  542.194221739972
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999998
+status -          exp_cb - 126 - DEBUG - VAR A: 0.163360064093526, 2*SIG_A: 0.8083565156378119
+status -          exp_cb - 127 - DEBUG - VAR B: 2.448570938950802e-08, 2*SIG_A: 0.0003129582041711514
+status -          exp_cb - 128 - DEBUG - VAR C: 0.1689955277276818, 2*SIG_A: 0.0003129582041711514
+status - exp_correlation - 179 - DEBUG - ss_res   =  4.578258420133124e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  663.6100949649749
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999993
+status -          exp_cb - 126 - DEBUG - VAR A: 0.18824487523388597, 2*SIG_A: 0.8677439143754013
+status -          exp_cb - 127 - DEBUG - VAR B: 2.0015400097770997e-08, 2*SIG_A: 0.0002829515866558871
+status -          exp_cb - 128 - DEBUG - VAR C: 0.19430271929217396, 2*SIG_A: 0.0002829515866558871
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.1163384659694808e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  535.3253128968871
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999791
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3225355278107167, 2*SIG_A: 1.135844228423452
+status -          exp_cb - 127 - DEBUG - VAR B: 2.6898890112287412e-08, 2*SIG_A: 0.0003280176221625138
+status -          exp_cb - 128 - DEBUG - VAR C: 0.33079741781817124, 2*SIG_A: 0.0003280176221625138
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.141023847013439e-12
+status - exp_correlation - 180 - DEBUG - ss_total =  775.8031551141739
+status -            main - 230 - DEBUG - Exp. Fit,   R: 0.9999999999999972
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3728548476183103, 2*SIG_A: 1.221236828167756
+status -          exp_cb - 127 - DEBUG - VAR B: 1.895259821828115e-08, 2*SIG_A: 0.0002753368716193394
+status -          exp_cb - 128 - DEBUG - VAR C: 0.3818434279409475, 2*SIG_A: 0.0002753368716193394
+status -        <module> - 363 - INFO - ==============================================================================
+status -        <module> - 364 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 365 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 367 - INFO - ----------------           2018-06-20 | 11:49:26          --------------------
+status -        <module> - 369 - INFO - ==============================================================================
+status -            main - 219 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 244 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 245 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 246 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 251 - DEBUG - number of sheets: 1
+status -       read_xlsx - 254 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 227 - DEBUG - # of Specs: 9
+status -            main - 228 - DEBUG - --------------------------------------------------
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.8812207147587359e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  23220.335726275975
+status - exp_correlation - 181 - DEBUG - perr =  [ 0.06412867  0.00016556  0.03135169]
+status -            main - 231 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.004112486867447313, 2*SIG_A: 0.12825734859956076
+status -          exp_cb - 127 - DEBUG - VAR B: 2.7410350663484962e-08, 2*SIG_A: 0.0003311214318855544
+status -          exp_cb - 128 - DEBUG - VAR C: 0.0009829284129534144, 2*SIG_A: 0.0003311214318855544
+status - exp_correlation - 179 - DEBUG - ss_res   =  9.97158892854789e-16
+status - exp_correlation - 180 - DEBUG - ss_total =  139.81007899011044
+status - exp_correlation - 181 - DEBUG - perr =  [ 0.02571906  0.00496052  0.00135533]
+status -            main - 231 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.0006614700628869093, 2*SIG_A: 0.051438120606682715
+status -          exp_cb - 127 - DEBUG - VAR B: 2.460676093616091e-05, 2*SIG_A: 0.009921040456758737
+status -          exp_cb - 128 - DEBUG - VAR C: 1.8369139101353442e-06, 2*SIG_A: 0.009921040456758737
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.801477805875389e-18
+status - exp_correlation - 180 - DEBUG - ss_total =  3718.4733691278116
+status - exp_correlation - 181 - DEBUG - perr =  [  3.20961435e-01   4.75143365e-05   3.26473449e-01]
+status -            main - 231 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.10301624286893012, 2*SIG_A: 0.6419228703479262
+status -          exp_cb - 127 - DEBUG - VAR B: 2.2576121769674957e-09, 2*SIG_A: 9.502867308275952e-05
+status -          exp_cb - 128 - DEBUG - VAR C: 0.10658491303301151, 2*SIG_A: 9.502867308275952e-05
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.63170564426848e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  727.5657205003241
+status - exp_correlation - 181 - DEBUG - perr =  [  5.06757722e-01   1.30684875e-04   5.13476860e-01]
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.99999999999995
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2568033883298925, 2*SIG_A: 1.0135154430592412
+status -          exp_cb - 127 - DEBUG - VAR B: 1.707853653740923e-08, 2*SIG_A: 0.00026136974987484094
+status -          exp_cb - 128 - DEBUG - VAR C: 0.26365848579401685, 2*SIG_A: 0.00026136974987484094
+status - exp_correlation - 179 - DEBUG - ss_res   =  3.017720538760603e-14
+status - exp_correlation - 180 - DEBUG - ss_total =  544.7150660646607
+status - exp_correlation - 181 - DEBUG - perr =  [  5.29599972e-01   1.58090164e-04   5.36625804e-01]
+status -            main - 231 - DEBUG - Exp. Fit,   R: 1.0
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2804761300776855, 2*SIG_A: 1.05919994350016
+status -          exp_cb - 127 - DEBUG - VAR B: 2.499250008985179e-08, 2*SIG_A: 0.0003161803288621972
+status -          exp_cb - 128 - DEBUG - VAR C: 0.28796725359457576, 2*SIG_A: 0.0003161803288621972
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.020841659709606e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  542.194221739972
+status - exp_correlation - 181 - DEBUG - perr =  [  4.04178258e-01   1.56479102e-04   4.11090656e-01]
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9999999999999998
+status -          exp_cb - 126 - DEBUG - VAR A: 0.163360064093526, 2*SIG_A: 0.8083565156378119
+status -          exp_cb - 127 - DEBUG - VAR B: 2.448570938950802e-08, 2*SIG_A: 0.0003129582041711514
+status -          exp_cb - 128 - DEBUG - VAR C: 0.1689955277276818, 2*SIG_A: 0.0003129582041711514
+status - exp_correlation - 179 - DEBUG - ss_res   =  4.578258420133124e-13
+status - exp_correlation - 180 - DEBUG - ss_total =  663.6100949649749
+status - exp_correlation - 181 - DEBUG - perr =  [  4.33871957e-01   1.41475793e-04   4.40797821e-01]
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9999999999999993
+status -          exp_cb - 126 - DEBUG - VAR A: 0.18824487523388597, 2*SIG_A: 0.8677439143754013
+status -          exp_cb - 127 - DEBUG - VAR B: 2.0015400097770997e-08, 2*SIG_A: 0.0002829515866558871
+status -          exp_cb - 128 - DEBUG - VAR C: 0.19430271929217396, 2*SIG_A: 0.0002829515866558871
+status - exp_correlation - 179 - DEBUG - ss_res   =  1.1163384659694808e-11
+status - exp_correlation - 180 - DEBUG - ss_total =  535.3253128968871
+status - exp_correlation - 181 - DEBUG - perr =  [  5.67922114e-01   1.64008811e-04   5.75149909e-01]
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9999999999999791
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3225355278107167, 2*SIG_A: 1.135844228423452
+status -          exp_cb - 127 - DEBUG - VAR B: 2.6898890112287412e-08, 2*SIG_A: 0.0003280176221625138
+status -          exp_cb - 128 - DEBUG - VAR C: 0.33079741781817124, 2*SIG_A: 0.0003280176221625138
+status - exp_correlation - 179 - DEBUG - ss_res   =  2.141023847013439e-12
+status - exp_correlation - 180 - DEBUG - ss_total =  775.8031551141739
+status - exp_correlation - 181 - DEBUG - perr =  [  6.10618414e-01   1.37668436e-04   6.17934809e-01]
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9999999999999972
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3728548476183103, 2*SIG_A: 1.221236828167756
+status -          exp_cb - 127 - DEBUG - VAR B: 1.895259821828115e-08, 2*SIG_A: 0.0002753368716193394
+status -          exp_cb - 128 - DEBUG - VAR C: 0.3818434279409475, 2*SIG_A: 0.0002753368716193394
+status -        <module> - 381 - INFO - ==============================================================================
+status -        <module> - 383 - INFO - ----------------            2018-06-20 | 11:49:38         --------------------
+status -        <module> - 385 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 386 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 387 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 388 - INFO - ==============================================================================
+status -        <module> - 363 - INFO - ==============================================================================
+status -        <module> - 364 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 365 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 367 - INFO - ----------------           2018-06-20 | 13:30:11          --------------------
+status -        <module> - 369 - INFO - ==============================================================================
+status -            main - 219 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 244 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 245 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 246 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 251 - DEBUG - number of sheets: 1
+status -       read_xlsx - 254 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 227 - DEBUG - # of Specs: 9
+status -            main - 228 - DEBUG - --------------------------------------------------
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -          exp_cb - 126 - DEBUG - VAR A: 0.004112486867447313, 2*SIG_A: 0.12825734859956076
+status -          exp_cb - 127 - DEBUG - VAR B: 2.7410350663484962e-08, 2*SIG_A: 0.0003311214318855544
+status -          exp_cb - 128 - DEBUG - VAR C: 0.0009829284129534144, 2*SIG_A: 0.0003311214318855544
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -          exp_cb - 126 - DEBUG - VAR A: 0.0006614700628869093, 2*SIG_A: 0.051438120606682715
+status -          exp_cb - 127 - DEBUG - VAR B: 2.460676093616091e-05, 2*SIG_A: 0.009921040456758737
+status -          exp_cb - 128 - DEBUG - VAR C: 1.8369139101353442e-06, 2*SIG_A: 0.009921040456758737
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -          exp_cb - 126 - DEBUG - VAR A: 0.10301624286893012, 2*SIG_A: 0.6419228703479262
+status -          exp_cb - 127 - DEBUG - VAR B: 2.2576121769674957e-09, 2*SIG_A: 9.502867308275952e-05
+status -          exp_cb - 128 - DEBUG - VAR C: 0.10658491303301151, 2*SIG_A: 9.502867308275952e-05
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2568033883298925, 2*SIG_A: 1.0135154430592412
+status -          exp_cb - 127 - DEBUG - VAR B: 1.707853653740923e-08, 2*SIG_A: 0.00026136974987484094
+status -          exp_cb - 128 - DEBUG - VAR C: 0.26365848579401685, 2*SIG_A: 0.00026136974987484094
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -          exp_cb - 126 - DEBUG - VAR A: 0.2804761300776855, 2*SIG_A: 1.05919994350016
+status -          exp_cb - 127 - DEBUG - VAR B: 2.499250008985179e-08, 2*SIG_A: 0.0003161803288621972
+status -          exp_cb - 128 - DEBUG - VAR C: 0.28796725359457576, 2*SIG_A: 0.0003161803288621972
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -          exp_cb - 126 - DEBUG - VAR A: 0.163360064093526, 2*SIG_A: 0.8083565156378119
+status -          exp_cb - 127 - DEBUG - VAR B: 2.448570938950802e-08, 2*SIG_A: 0.0003129582041711514
+status -          exp_cb - 128 - DEBUG - VAR C: 0.1689955277276818, 2*SIG_A: 0.0003129582041711514
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -          exp_cb - 126 - DEBUG - VAR A: 0.18824487523388597, 2*SIG_A: 0.8677439143754013
+status -          exp_cb - 127 - DEBUG - VAR B: 2.0015400097770997e-08, 2*SIG_A: 0.0002829515866558871
+status -          exp_cb - 128 - DEBUG - VAR C: 0.19430271929217396, 2*SIG_A: 0.0002829515866558871
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3225355278107167, 2*SIG_A: 1.135844228423452
+status -          exp_cb - 127 - DEBUG - VAR B: 2.6898890112287412e-08, 2*SIG_A: 0.0003280176221625138
+status -          exp_cb - 128 - DEBUG - VAR C: 0.33079741781817124, 2*SIG_A: 0.0003280176221625138
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -          exp_cb - 126 - DEBUG - VAR A: 0.3728548476183103, 2*SIG_A: 1.221236828167756
+status -          exp_cb - 127 - DEBUG - VAR B: 1.895259821828115e-08, 2*SIG_A: 0.0002753368716193394
+status -          exp_cb - 128 - DEBUG - VAR C: 0.3818434279409475, 2*SIG_A: 0.0002753368716193394
+status -        <module> - 381 - INFO - ==============================================================================
+status -        <module> - 383 - INFO - ----------------            2018-06-20 | 13:30:15         --------------------
+status -        <module> - 385 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 386 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 387 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 388 - INFO - ==============================================================================
+status -        <module> - 363 - INFO - ==============================================================================
+status -        <module> - 364 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 365 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 367 - INFO - ----------------           2018-06-20 | 13:30:35          --------------------
+status -        <module> - 369 - INFO - ==============================================================================
+status -            main - 219 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 244 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 245 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 246 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 251 - DEBUG - number of sheets: 1
+status -       read_xlsx - 254 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 227 - DEBUG - # of Specs: 9
+status -            main - 228 - DEBUG - --------------------------------------------------
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 231 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 381 - INFO - ==============================================================================
+status -        <module> - 383 - INFO - ----------------            2018-06-20 | 13:43:54         --------------------
+status -        <module> - 385 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 386 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 387 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 388 - INFO - ==============================================================================
+status -        <module> - 358 - INFO - ==============================================================================
+status -        <module> - 359 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 360 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 362 - INFO - ----------------           2018-06-20 | 13:43:55          --------------------
+status -        <module> - 364 - INFO - ==============================================================================
+status -            main - 215 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 236 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 237 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 243 - DEBUG - number of sheets: 1
+status -       read_xlsx - 246 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 223 - DEBUG - # of Specs: 9
+status -            main - 224 - DEBUG - --------------------------------------------------
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 358 - INFO - ==============================================================================
+status -        <module> - 359 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 360 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 362 - INFO - ----------------           2018-06-20 | 13:44:11          --------------------
+status -        <module> - 364 - INFO - ==============================================================================
+status -            main - 215 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 236 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 237 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 243 - DEBUG - number of sheets: 1
+status -       read_xlsx - 246 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 223 - DEBUG - # of Specs: 9
+status -            main - 224 - DEBUG - --------------------------------------------------
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 226 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 376 - INFO - ==============================================================================
+status -        <module> - 378 - INFO - ----------------            2018-06-20 | 13:44:12         --------------------
+status -        <module> - 380 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 381 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 382 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 383 - INFO - ==============================================================================
+status -        <module> - 372 - INFO - ==============================================================================
+status -        <module> - 373 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 374 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 376 - INFO - ----------------           2018-06-20 | 13:58:38          --------------------
+status -        <module> - 378 - INFO - ==============================================================================
+status -        <module> - 372 - INFO - ==============================================================================
+status -        <module> - 373 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 374 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 376 - INFO - ----------------           2018-06-20 | 13:59:04          --------------------
+status -        <module> - 378 - INFO - ==============================================================================
+status -            main - 216 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 237 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 238 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 239 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - number of sheets: 1
+status -       read_xlsx - 247 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 224 - DEBUG - # of Specs: 9
+status -            main - 225 - DEBUG - --------------------------------------------------
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 372 - INFO - ==============================================================================
+status -        <module> - 373 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 374 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 376 - INFO - ----------------           2018-06-20 | 13:59:26          --------------------
+status -        <module> - 378 - INFO - ==============================================================================
+status -            main - 216 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 237 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 238 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 239 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - number of sheets: 1
+status -       read_xlsx - 247 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 224 - DEBUG - # of Specs: 9
+status -            main - 225 - DEBUG - --------------------------------------------------
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 390 - INFO - ==============================================================================
+status -        <module> - 392 - INFO - ----------------            2018-06-20 | 13:59:29         --------------------
+status -        <module> - 394 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 395 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 396 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 397 - INFO - ==============================================================================
+status -        <module> - 372 - INFO - ==============================================================================
+status -        <module> - 373 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 374 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 376 - INFO - ----------------           2018-06-20 | 14:01:28          --------------------
+status -        <module> - 378 - INFO - ==============================================================================
+status -            main - 216 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 237 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 238 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 239 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - number of sheets: 1
+status -       read_xlsx - 247 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 224 - DEBUG - # of Specs: 9
+status -            main - 225 - DEBUG - --------------------------------------------------
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 390 - INFO - ==============================================================================
+status -        <module> - 392 - INFO - ----------------            2018-06-20 | 14:01:31         --------------------
+status -        <module> - 394 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 395 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 396 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 397 - INFO - ==============================================================================
+status -        <module> - 372 - INFO - ==============================================================================
+status -        <module> - 373 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 374 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 376 - INFO - ----------------           2018-06-20 | 14:01:57          --------------------
+status -        <module> - 378 - INFO - ==============================================================================
+status -            main - 216 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 237 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 238 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 239 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - number of sheets: 1
+status -       read_xlsx - 247 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 224 - DEBUG - # of Specs: 9
+status -            main - 225 - DEBUG - --------------------------------------------------
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 390 - INFO - ==============================================================================
+status -        <module> - 392 - INFO - ----------------            2018-06-20 | 14:01:59         --------------------
+status -        <module> - 394 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 395 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 396 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 397 - INFO - ==============================================================================
+status -        <module> - 377 - INFO - ==============================================================================
+status -        <module> - 378 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 379 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 381 - INFO - ----------------           2018-06-20 | 14:09:27          --------------------
+status -        <module> - 383 - INFO - ==============================================================================
+status -            main - 216 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 237 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 238 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 239 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - number of sheets: 1
+status -       read_xlsx - 247 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 224 - DEBUG - # of Specs: 9
+status -            main - 225 - DEBUG - --------------------------------------------------
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 377 - INFO - ==============================================================================
+status -        <module> - 378 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 379 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 381 - INFO - ----------------           2018-06-20 | 14:09:43          --------------------
+status -        <module> - 383 - INFO - ==============================================================================
+status -            main - 216 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 237 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 238 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 239 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - number of sheets: 1
+status -       read_xlsx - 247 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 224 - DEBUG - # of Specs: 9
+status -            main - 225 - DEBUG - --------------------------------------------------
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 377 - INFO - ==============================================================================
+status -        <module> - 378 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 379 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 381 - INFO - ----------------           2018-06-20 | 14:10:40          --------------------
+status -        <module> - 383 - INFO - ==============================================================================
+status -            main - 216 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 237 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 238 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 239 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - number of sheets: 1
+status -       read_xlsx - 247 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 224 - DEBUG - # of Specs: 9
+status -            main - 225 - DEBUG - --------------------------------------------------
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 377 - INFO - ==============================================================================
+status -        <module> - 378 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 379 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 381 - INFO - ----------------           2018-06-20 | 14:10:52          --------------------
+status -        <module> - 383 - INFO - ==============================================================================
+status -            main - 216 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 237 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 238 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 239 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - number of sheets: 1
+status -       read_xlsx - 247 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 224 - DEBUG - # of Specs: 9
+status -            main - 225 - DEBUG - --------------------------------------------------
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 227 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 379 - INFO - ==============================================================================
+status -        <module> - 380 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 381 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 383 - INFO - ----------------           2018-06-20 | 14:13:28          --------------------
+status -        <module> - 385 - INFO - ==============================================================================
+status -            main - 217 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 239 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 240 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 245 - DEBUG - number of sheets: 1
+status -       read_xlsx - 248 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 225 - DEBUG - # of Specs: 9
+status -            main - 226 - DEBUG - --------------------------------------------------
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 379 - INFO - ==============================================================================
+status -        <module> - 380 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 381 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 383 - INFO - ----------------           2018-06-20 | 14:15:49          --------------------
+status -        <module> - 385 - INFO - ==============================================================================
+status -            main - 217 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 239 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 240 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 245 - DEBUG - number of sheets: 1
+status -       read_xlsx - 248 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 225 - DEBUG - # of Specs: 9
+status -            main - 226 - DEBUG - --------------------------------------------------
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 382 - INFO - ==============================================================================
+status -        <module> - 383 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 384 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 386 - INFO - ----------------           2018-06-20 | 14:27:13          --------------------
+status -        <module> - 388 - INFO - ==============================================================================
+status -            main - 217 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 239 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 240 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 245 - DEBUG - number of sheets: 1
+status -       read_xlsx - 248 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 225 - DEBUG - # of Specs: 9
+status -            main - 226 - DEBUG - --------------------------------------------------
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 400 - INFO - ==============================================================================
+status -        <module> - 402 - INFO - ----------------            2018-06-20 | 14:27:14         --------------------
+status -        <module> - 404 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 405 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 406 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 407 - INFO - ==============================================================================
+status -        <module> - 382 - INFO - ==============================================================================
+status -        <module> - 383 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 384 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 386 - INFO - ----------------           2018-06-20 | 14:28:57          --------------------
+status -        <module> - 388 - INFO - ==============================================================================
+status -            main - 217 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 239 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 240 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 245 - DEBUG - number of sheets: 1
+status -       read_xlsx - 248 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 225 - DEBUG - # of Specs: 9
+status -            main - 226 - DEBUG - --------------------------------------------------
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 400 - INFO - ==============================================================================
+status -        <module> - 402 - INFO - ----------------            2018-06-20 | 14:28:59         --------------------
+status -        <module> - 404 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 405 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 406 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 407 - INFO - ==============================================================================
+status -        <module> - 381 - INFO - ==============================================================================
+status -        <module> - 382 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 383 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 385 - INFO - ----------------           2018-06-20 | 14:29:55          --------------------
+status -        <module> - 387 - INFO - ==============================================================================
+status -            main - 217 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 239 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 240 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 245 - DEBUG - number of sheets: 1
+status -       read_xlsx - 248 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 225 - DEBUG - # of Specs: 9
+status -            main - 226 - DEBUG - --------------------------------------------------
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 399 - INFO - ==============================================================================
+status -        <module> - 401 - INFO - ----------------            2018-06-20 | 14:30:00         --------------------
+status -        <module> - 403 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 404 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 405 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 406 - INFO - ==============================================================================
+status -        <module> - 380 - INFO - ==============================================================================
+status -        <module> - 381 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 382 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 384 - INFO - ----------------           2018-06-20 | 14:31:49          --------------------
+status -        <module> - 386 - INFO - ==============================================================================
+status -            main - 217 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 239 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 240 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 245 - DEBUG - number of sheets: 1
+status -       read_xlsx - 248 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 225 - DEBUG - # of Specs: 9
+status -            main - 226 - DEBUG - --------------------------------------------------
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 398 - INFO - ==============================================================================
+status -        <module> - 400 - INFO - ----------------            2018-06-20 | 14:31:50         --------------------
+status -        <module> - 402 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 403 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 404 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 405 - INFO - ==============================================================================
+status -        <module> - 386 - INFO - ==============================================================================
+status -        <module> - 387 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 388 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 390 - INFO - ----------------           2018-06-20 | 14:35:05          --------------------
+status -        <module> - 392 - INFO - ==============================================================================
+status -            main - 217 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 239 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 240 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 245 - DEBUG - number of sheets: 1
+status -       read_xlsx - 248 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 225 - DEBUG - # of Specs: 9
+status -            main - 226 - DEBUG - --------------------------------------------------
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 386 - INFO - ==============================================================================
+status -        <module> - 387 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 388 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 390 - INFO - ----------------           2018-06-20 | 14:38:11          --------------------
+status -        <module> - 392 - INFO - ==============================================================================
+status -            main - 217 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 239 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 240 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 245 - DEBUG - number of sheets: 1
+status -       read_xlsx - 248 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 225 - DEBUG - # of Specs: 9
+status -            main - 226 - DEBUG - --------------------------------------------------
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 404 - INFO - ==============================================================================
+status -        <module> - 406 - INFO - ----------------            2018-06-20 | 14:38:13         --------------------
+status -        <module> - 408 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 409 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 410 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 411 - INFO - ==============================================================================
+status -        <module> - 386 - INFO - ==============================================================================
+status -        <module> - 387 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 388 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 390 - INFO - ----------------           2018-06-20 | 14:38:36          --------------------
+status -        <module> - 392 - INFO - ==============================================================================
+status -            main - 217 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 239 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 240 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 245 - DEBUG - number of sheets: 1
+status -       read_xlsx - 248 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 225 - DEBUG - # of Specs: 9
+status -            main - 226 - DEBUG - --------------------------------------------------
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 404 - INFO - ==============================================================================
+status -        <module> - 406 - INFO - ----------------            2018-06-20 | 14:38:38         --------------------
+status -        <module> - 408 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 409 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 410 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 411 - INFO - ==============================================================================
+status -        <module> - 386 - INFO - ==============================================================================
+status -        <module> - 387 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 388 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 390 - INFO - ----------------           2018-06-20 | 14:39:04          --------------------
+status -        <module> - 392 - INFO - ==============================================================================
+status -            main - 217 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 239 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 240 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 245 - DEBUG - number of sheets: 1
+status -       read_xlsx - 248 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 225 - DEBUG - # of Specs: 9
+status -            main - 226 - DEBUG - --------------------------------------------------
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9983550456018014
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978001130910822
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9997093891066756
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9967897799984645
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9968614153655959
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9974305536235277
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9965451253530533
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9975609742153945
+status -        <module> - 404 - INFO - ==============================================================================
+status -        <module> - 406 - INFO - ----------------            2018-06-20 | 14:39:06         --------------------
+status -        <module> - 408 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 409 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 410 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 411 - INFO - ==============================================================================
