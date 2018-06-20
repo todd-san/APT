@@ -296,66 +296,23 @@ def write_xlsx(data, file, template):
     for i, spec in enumerate(data.specs):
         target = 'SPEC_'+str(i+1)
         tmp = wb[target]
-        tmp['C2'] = spec.popt[0]
-        tmp['C3'] = spec.popt[1]
-        tmp['C4'] = spec.popt[2]
-        tmp['B5'] = spec.exp_correlation()
+        tmp['A1'] = spec.name.upper()
+        tmp['D4'] = spec.popt[0]
+        tmp['F4'] = spec.popt[1]
+        tmp['H4'] = spec.popt[2]
+        tmp['D5'] = spec.exp_correlation()
         tmp.title = spec.name
         for j in range(len(spec.p)):
-            tmp.cell(row=j+2, column=4).value = spec.t[j]
-            tmp.cell(row=j+2, column=5).value = spec.nom_p[j]
-            tmp.cell(row=j+2, column=6).value = spec.p[j]
-            tmp.cell(row=j+2, column=9).value = spec.temps[j]
+            tmp.cell(row=j+3, column=9).value = spec.t[j]
+            tmp.cell(row=j+3, column=10).value = spec.nom_p[j]
+            tmp.cell(row=j+3, column=11).value = spec.p[j]
+            tmp.cell(row=j+3, column=12).value = spec.temps[j]
+            # tmp.merge_cells(start_row=j+7, start_column=1, end_row=j+7, end_column=2)
+            # tmp.merge_cells(start_row=j+7, start_column=3, end_row=j+7, end_column=4)
+            # tmp.merge_cells(start_row=j+7, start_column=5, end_row=j+7, end_column=6)
+            # tmp.merge_cells(start_row=j+7, start_column=7, end_row=j+7, end_column=8)
 
     wb.save('output.xlsx')
-    # wb = xlwt.Workbook()
-    # ws1 = wb.add_sheet("Summary")
-    # # ws1.row(1).height_mismatch = True
-    # # ws1.row(1).height = 44*20
-    #
-    # init_row_heights = [15, 43, 27, 36, 18, 18]
-    #     ws1.row(i).height_mismatch = True
-    #     ws1.row(i).height = h*20
-    #
-    # init_col_widths = [8, 8, 8, 17, 8]
-    # for i, w in enumerate(init_col_widths):
-    #     ws1.col(i).width = w*367
-    #
-    # spec_sheets = list()
-    # for spec in data.specs:
-    #     tmp = wb.add_sheet(spec.name)
-    #     tmp.write_merge(0, 3, 0, 0,
-    #                     label='EQ',
-    #                     style=xlwt.easyxf('font: bold 1, height 240; align: horz center, vert center'))
-    #     tmp.col(4).width = 5*367
-    #     tmp.write(4, 0, label='R')
-    #     tmp.write(0, 5, label='Time (hrs)')
-    #     tmp.write(0, 6, label='Nominal Pressure')
-    #     tmp.write(0, 7, label='Normalized Pressure')
-    #     tmp.write(0, 8, label='Averaged Temperature')
-    #     for i, val in enumerate(spec.nom_p):
-    #         tmp.write(i+1, 5, spec.t[i])
-    #         tmp.write(i+1, 6, spec.nom_p[i])
-    #         tmp.write(i+1, 7, spec.p[i])
-    #         tmp.write(i+1, 8, spec.temps[i])
-    #     spec_sheets.append(tmp)
-    #
-    # # summary label
-    # ws1.write_merge(1, 1, 1, 10,
-    #                 label='AIR PERMEATION TESTING - SUMMARY',
-    #                 style=xlwt.easyxf('font: height 360; align: horz center, vert center'))
-    #
-    # # tested specs label
-    # ws1.write_merge(2, 5, 1, 2,
-    #                 label='TESTED SPECS',
-    #                 style=xlwt.easyxf('font: bold 1, height 320; align: horz center, vert center, wrap 1'))
-    #
-    # # start date & time label
-    # ws1.write_merge(2, 2, 4, 5,
-    #                 label='START',
-    #                 style=xlwt.easyxf('font: bold 1; align: horz center, vert center;'))
-    #
-    # wb.save(file)
 
 
 def init_logger():
