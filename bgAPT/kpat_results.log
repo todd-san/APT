@@ -55231,3 +55231,445 @@ status -        <module> - 365 - INFO - ----------------                    DONE
 status -        <module> - 366 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
 status -        <module> - 367 - INFO - ----------------                 PROGRAM END              --------------------
 status -        <module> - 368 - INFO - ==============================================================================
+status -        <module> - 343 - INFO - ==============================================================================
+status -        <module> - 344 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 345 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 347 - INFO - ----------------           2018-06-20 | 15:33:51          --------------------
+status -        <module> - 349 - INFO - ==============================================================================
+status -            main - 217 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 239 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 240 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 245 - DEBUG - number of sheets: 1
+status -       read_xlsx - 248 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 225 - DEBUG - # of Specs: 9
+status -            main - 226 - DEBUG - --------------------------------------------------
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9983550456018021
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978001130910824
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9997093891066757
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9967897799983712
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9968614153655488
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9974305536233747
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9965451253529107
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9975609742153946
+status -        <module> - 361 - INFO - ==============================================================================
+status -        <module> - 363 - INFO - ----------------            2018-06-20 | 15:33:55         --------------------
+status -        <module> - 365 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 366 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 367 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 368 - INFO - ==============================================================================
+status -        <module> - 343 - INFO - ==============================================================================
+status -        <module> - 344 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 345 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 347 - INFO - ----------------           2018-06-20 | 15:38:06          --------------------
+status -        <module> - 349 - INFO - ==============================================================================
+status -            main - 217 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 238 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 239 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 240 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 245 - DEBUG - number of sheets: 1
+status -       read_xlsx - 248 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 225 - DEBUG - # of Specs: 9
+status -            main - 226 - DEBUG - --------------------------------------------------
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9983550456018021
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978001130910824
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9997093891066757
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9967897799983712
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9968614153655488
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9974305536233747
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9965451253529107
+status -            main - 228 - DEBUG - Exp. Fit,   R: 0.9975609742153946
+status -        <module> - 361 - INFO - ==============================================================================
+status -        <module> - 363 - INFO - ----------------            2018-06-20 | 15:38:09         --------------------
+status -        <module> - 365 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 366 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 367 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 368 - INFO - ==============================================================================
+status -        <module> - 359 - INFO - ==============================================================================
+status -        <module> - 360 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 361 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 363 - INFO - ----------------           2018-06-20 | 15:46:02          --------------------
+status -        <module> - 365 - INFO - ==============================================================================
+status -            main - 222 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 243 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 245 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 250 - DEBUG - number of sheets: 1
+status -       read_xlsx - 253 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 230 - DEBUG - # of Specs: 9
+status -            main - 231 - DEBUG - --------------------------------------------------
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9983550456018021
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9978001130910824
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9997093891066757
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9967897799983712
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9968614153655488
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9974305536233747
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9965451253529107
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9975609742153946
+status -        <module> - 377 - INFO - ==============================================================================
+status -        <module> - 379 - INFO - ----------------            2018-06-20 | 15:46:04         --------------------
+status -        <module> - 381 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 382 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 383 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 384 - INFO - ==============================================================================
+status -        <module> - 360 - INFO - ==============================================================================
+status -        <module> - 361 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 362 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 364 - INFO - ----------------           2018-06-20 | 15:52:08          --------------------
+status -        <module> - 366 - INFO - ==============================================================================
+status -            main - 222 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 243 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 245 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 250 - DEBUG - number of sheets: 1
+status -       read_xlsx - 253 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 230 - DEBUG - # of Specs: 9
+status -            main - 231 - DEBUG - --------------------------------------------------
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9983550456018021
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9978001130910824
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9997093891066757
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9967897799983712
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9968614153655488
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9974305536233747
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9965451253529107
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9975609742153946
+status -        <module> - 378 - INFO - ==============================================================================
+status -        <module> - 380 - INFO - ----------------            2018-06-20 | 15:52:11         --------------------
+status -        <module> - 382 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 383 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 384 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 385 - INFO - ==============================================================================
+status -        <module> - 363 - INFO - ==============================================================================
+status -        <module> - 364 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 365 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 367 - INFO - ----------------           2018-06-20 | 15:53:48          --------------------
+status -        <module> - 369 - INFO - ==============================================================================
+status -            main - 222 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 243 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 245 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 250 - DEBUG - number of sheets: 1
+status -       read_xlsx - 253 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 230 - DEBUG - # of Specs: 9
+status -            main - 231 - DEBUG - --------------------------------------------------
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9983550456018021
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9978001130910824
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9997093891066757
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9967897799983712
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9968614153655488
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9974305536233747
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9965451253529107
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9975609742153946
+status -        <module> - 381 - INFO - ==============================================================================
+status -        <module> - 383 - INFO - ----------------            2018-06-20 | 15:53:51         --------------------
+status -        <module> - 385 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 386 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 387 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 388 - INFO - ==============================================================================
+status -        <module> - 363 - INFO - ==============================================================================
+status -        <module> - 364 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 365 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 367 - INFO - ----------------           2018-06-20 | 15:57:21          --------------------
+status -        <module> - 369 - INFO - ==============================================================================
+status -            main - 222 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 243 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 245 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 250 - DEBUG - number of sheets: 1
+status -       read_xlsx - 253 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 230 - DEBUG - # of Specs: 9
+status -            main - 231 - DEBUG - --------------------------------------------------
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9983550456018021
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9978001130910824
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9997093891066757
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9967897799983712
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9968614153655488
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9974305536233747
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9965451253529107
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9975609742153946
+status -        <module> - 381 - INFO - ==============================================================================
+status -        <module> - 383 - INFO - ----------------            2018-06-20 | 15:57:24         --------------------
+status -        <module> - 385 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 386 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 387 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 388 - INFO - ==============================================================================
+status -        <module> - 359 - INFO - ==============================================================================
+status -        <module> - 360 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 361 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 363 - INFO - ----------------           2018-06-20 | 16:01:14          --------------------
+status -        <module> - 365 - INFO - ==============================================================================
+status -            main - 222 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 243 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 245 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 250 - DEBUG - number of sheets: 1
+status -       read_xlsx - 253 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 230 - DEBUG - # of Specs: 9
+status -            main - 231 - DEBUG - --------------------------------------------------
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9983550456018021
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9978001130910824
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9997093891066757
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9967897799983712
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9968614153655488
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9974305536233747
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9965451253529107
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9975609742153946
+status -        <module> - 377 - INFO - ==============================================================================
+status -        <module> - 379 - INFO - ----------------            2018-06-20 | 16:01:17         --------------------
+status -        <module> - 381 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 382 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 383 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 384 - INFO - ==============================================================================
+status -        <module> - 353 - INFO - ==============================================================================
+status -        <module> - 354 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 355 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 357 - INFO - ----------------           2018-06-20 | 16:34:25          --------------------
+status -        <module> - 359 - INFO - ==============================================================================
+status -            main - 222 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 243 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 245 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 250 - DEBUG - number of sheets: 1
+status -       read_xlsx - 253 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 230 - DEBUG - # of Specs: 9
+status -            main - 231 - DEBUG - --------------------------------------------------
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9983550456018021
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9978001130910824
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9997093891066757
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9967897799983712
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9968614153655488
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9974305536233747
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9965451253529107
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9975609742153946
+status -        <module> - 371 - INFO - ==============================================================================
+status -        <module> - 373 - INFO - ----------------            2018-06-20 | 16:34:28         --------------------
+status -        <module> - 375 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 376 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 377 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 378 - INFO - ==============================================================================
+status -        <module> - 353 - INFO - ==============================================================================
+status -        <module> - 354 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 355 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 357 - INFO - ----------------           2018-06-20 | 16:35:10          --------------------
+status -        <module> - 359 - INFO - ==============================================================================
+status -            main - 222 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 243 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 244 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 245 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 250 - DEBUG - number of sheets: 1
+status -       read_xlsx - 253 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 230 - DEBUG - # of Specs: 9
+status -            main - 231 - DEBUG - --------------------------------------------------
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9983550456018021
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9978001130910824
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9997093891066757
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9978029585510688
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9967897799983712
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9968614153655488
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9974305536233747
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9965451253529107
+status -            main - 233 - DEBUG - Exp. Fit,   R: 0.9975609742153946
+status -        <module> - 371 - INFO - ==============================================================================
+status -        <module> - 373 - INFO - ----------------            2018-06-20 | 16:35:17         --------------------
+status -        <module> - 375 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 376 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 377 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 378 - INFO - ==============================================================================
+status -        <module> - 405 - INFO - ==============================================================================
+status -        <module> - 406 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 407 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 409 - INFO - ----------------           2018-06-20 | 20:16:37          --------------------
+status -        <module> - 411 - INFO - ==============================================================================
+status -            main - 202 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 223 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 224 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 225 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 230 - DEBUG - number of sheets: 1
+status -       read_xlsx - 233 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 210 - DEBUG - # of Specs: 9
+status -            main - 211 - DEBUG - --------------------------------------------------
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [0.06412867 0.00016556 0.03135169]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [0.02571906 0.00496052 0.00135533]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [3.20961510e-01 4.75143451e-05 3.26473521e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.06757347e-01 1.30684883e-04 5.13476481e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.29599956e-01 1.58090150e-04 5.36625789e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [4.04178303e-01 1.56479102e-04 4.11090705e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [4.33871753e-01 1.41475779e-04 4.40797615e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.67922168e-01 1.64008782e-04 5.75149964e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [6.10618381e-01 1.37668430e-04 6.17934768e-01]
+status -        <module> - 423 - INFO - ==============================================================================
+status -        <module> - 425 - INFO - ----------------            2018-06-20 | 20:16:46         --------------------
+status -        <module> - 427 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 428 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 429 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 430 - INFO - ==============================================================================
+status -        <module> - 405 - INFO - ==============================================================================
+status -        <module> - 406 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 407 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 409 - INFO - ----------------           2018-06-20 | 20:17:44          --------------------
+status -        <module> - 411 - INFO - ==============================================================================
+status -            main - 202 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 223 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 224 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 225 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 230 - DEBUG - number of sheets: 1
+status -       read_xlsx - 233 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 210 - DEBUG - # of Specs: 9
+status -            main - 211 - DEBUG - --------------------------------------------------
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [0.06412867 0.00016556 0.03135169]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [0.02571906 0.00496052 0.00135533]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [3.20961510e-01 4.75143451e-05 3.26473521e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.06757347e-01 1.30684883e-04 5.13476481e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.29599956e-01 1.58090150e-04 5.36625789e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [4.04178303e-01 1.56479102e-04 4.11090705e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [4.33871753e-01 1.41475779e-04 4.40797615e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.67922168e-01 1.64008782e-04 5.75149964e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [6.10618381e-01 1.37668430e-04 6.17934768e-01]
+status -        <module> - 423 - INFO - ==============================================================================
+status -        <module> - 425 - INFO - ----------------            2018-06-20 | 20:17:47         --------------------
+status -        <module> - 427 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 428 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 429 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 430 - INFO - ==============================================================================
+status -        <module> - 405 - INFO - ==============================================================================
+status -        <module> - 406 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 407 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 409 - INFO - ----------------           2018-06-20 | 20:19:54          --------------------
+status -        <module> - 411 - INFO - ==============================================================================
+status -            main - 202 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 223 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 224 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 225 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 230 - DEBUG - number of sheets: 1
+status -       read_xlsx - 233 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 210 - DEBUG - # of Specs: 9
+status -            main - 211 - DEBUG - --------------------------------------------------
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [0.06412867 0.00016556 0.03135169]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [0.02571906 0.00496052 0.00135533]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [3.20961510e-01 4.75143451e-05 3.26473521e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.06757347e-01 1.30684883e-04 5.13476481e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.29599956e-01 1.58090150e-04 5.36625789e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [4.04178303e-01 1.56479102e-04 4.11090705e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [4.33871753e-01 1.41475779e-04 4.40797615e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.67922168e-01 1.64008782e-04 5.75149964e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [6.10618381e-01 1.37668430e-04 6.17934768e-01]
+status -        <module> - 423 - INFO - ==============================================================================
+status -        <module> - 425 - INFO - ----------------            2018-06-20 | 20:19:57         --------------------
+status -        <module> - 427 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 428 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 429 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 430 - INFO - ==============================================================================
+status -        <module> - 405 - INFO - ==============================================================================
+status -        <module> - 406 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 407 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 409 - INFO - ----------------           2018-06-20 | 20:22:27          --------------------
+status -        <module> - 411 - INFO - ==============================================================================
+status -            main - 202 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 223 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 224 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 225 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 230 - DEBUG - number of sheets: 1
+status -       read_xlsx - 233 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 210 - DEBUG - # of Specs: 9
+status -            main - 211 - DEBUG - --------------------------------------------------
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [0.06412867 0.00016556 0.03135169]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [0.02571906 0.00496052 0.00135533]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [3.20961510e-01 4.75143451e-05 3.26473521e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.06757347e-01 1.30684883e-04 5.13476481e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.29599956e-01 1.58090150e-04 5.36625789e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [4.04178303e-01 1.56479102e-04 4.11090705e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [4.33871753e-01 1.41475779e-04 4.40797615e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.67922168e-01 1.64008782e-04 5.75149964e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [6.10618381e-01 1.37668430e-04 6.17934768e-01]
+status -        <module> - 423 - INFO - ==============================================================================
+status -        <module> - 425 - INFO - ----------------            2018-06-20 | 20:22:45         --------------------
+status -        <module> - 427 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 428 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 429 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 430 - INFO - ==============================================================================
+status -        <module> - 424 - INFO - ==============================================================================
+status -        <module> - 425 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 426 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 428 - INFO - ----------------           2018-06-20 | 20:40:04          --------------------
+status -        <module> - 430 - INFO - ==============================================================================
+status -            main - 202 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 223 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 224 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 225 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 230 - DEBUG - number of sheets: 1
+status -       read_xlsx - 233 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 210 - DEBUG - # of Specs: 9
+status -            main - 211 - DEBUG - --------------------------------------------------
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [0.06412867 0.00016556 0.03135169]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [0.02571906 0.00496052 0.00135533]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [3.20961510e-01 4.75143451e-05 3.26473521e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.06757347e-01 1.30684883e-04 5.13476481e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.29599956e-01 1.58090150e-04 5.36625789e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [4.04178303e-01 1.56479102e-04 4.11090705e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [4.33871753e-01 1.41475779e-04 4.40797615e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.67922168e-01 1.64008782e-04 5.75149964e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [6.10618381e-01 1.37668430e-04 6.17934768e-01]
+status -        <module> - 424 - INFO - ==============================================================================
+status -        <module> - 425 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 426 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 428 - INFO - ----------------           2018-06-20 | 20:41:01          --------------------
+status -        <module> - 430 - INFO - ==============================================================================
+status -            main - 202 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 223 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 224 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 225 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 230 - DEBUG - number of sheets: 1
+status -       read_xlsx - 233 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 210 - DEBUG - # of Specs: 9
+status -            main - 211 - DEBUG - --------------------------------------------------
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [0.06412867 0.00016556 0.03135169]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [0.02571906 0.00496052 0.00135533]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [3.20961510e-01 4.75143451e-05 3.26473521e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.06757347e-01 1.30684883e-04 5.13476481e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.29599956e-01 1.58090150e-04 5.36625789e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [4.04178303e-01 1.56479102e-04 4.11090705e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [4.33871753e-01 1.41475779e-04 4.40797615e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.67922168e-01 1.64008782e-04 5.75149964e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [6.10618381e-01 1.37668430e-04 6.17934768e-01]
+status -        <module> - 442 - INFO - ==============================================================================
+status -        <module> - 444 - INFO - ----------------            2018-06-20 | 20:41:04         --------------------
+status -        <module> - 446 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 447 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 448 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 449 - INFO - ==============================================================================
+status -        <module> - 424 - INFO - ==============================================================================
+status -        <module> - 425 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 426 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 428 - INFO - ----------------           2018-06-20 | 20:43:23          --------------------
+status -        <module> - 430 - INFO - ==============================================================================
+status -            main - 202 - INFO - CALLING read_xlsx(input_file=P65_trialProductionTestResults.xlsx)
+status -       read_xlsx - 223 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 224 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 225 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 230 - DEBUG - number of sheets: 1
+status -       read_xlsx - 233 - DEBUG - worksheet 1: Trial Production 1
+status -            main - 210 - DEBUG - # of Specs: 9
+status -            main - 211 - DEBUG - --------------------------------------------------
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [0.06412867 0.00016556 0.03135169]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [0.02571906 0.00496052 0.00135533]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [3.20961510e-01 4.75143451e-05 3.26473521e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.06757347e-01 1.30684883e-04 5.13476481e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.29599956e-01 1.58090150e-04 5.36625789e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [4.04178303e-01 1.56479102e-04 4.11090705e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [4.33871753e-01 1.41475779e-04 4.40797615e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [5.67922168e-01 1.64008782e-04 5.75149964e-01]
+status -            main - 213 - DEBUG - Exp. Fit,   STD ERRORS: [6.10618381e-01 1.37668430e-04 6.17934768e-01]
+status -        <module> - 442 - INFO - ==============================================================================
+status -        <module> - 444 - INFO - ----------------            2018-06-20 | 20:43:26         --------------------
+status -        <module> - 446 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 447 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 448 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 449 - INFO - ==============================================================================

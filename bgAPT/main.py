@@ -1,6 +1,11 @@
 import xlrd
 import copy
 import openpyxl
+from openpyxl.chart import (
+    ScatterChart,
+    Reference,
+    Series,
+)
 import numpy as np
 import os
 import xlwt
@@ -13,7 +18,7 @@ from pytz import timezone
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 from scipy import stats
-from kapteyn import kmpfit
+# from kapteyn import kmpfit
 
 BLESSED_TEMP = 22.2222222  # deg C for normalization
 CELSIUS_TO_KELVIN = 273.15
@@ -134,20 +139,20 @@ class AirPermSpec:
         neg_c = self.popt[2]-(self.pcov[2][2]**0.5)
         return self.exp_model(x, pos_a, neg_b, pos_c), self.exp_model(x, neg_a, pos_b, neg_c)
 
-    def exp_kmpfit(self):
-        # x = np.linspace(self.t.min(), self.t.max(), 100)
-        x = self.t
-        y = self.p
-        f = kmpfit.simplefit(self.kmpfit_model, [.1, .1, .1], x, y)
-        a, b, c = f.params
-        dfdp = [np.exp(-b*x), a*x*np.exp(-b*x), 1]
-        yhat, upper, lower = f.confidence_band(x, dfdp, 0.95, self.kmpfit_model)
-
-        plt.scatter(x, y)
-        ix = np.argsort(x)
-        for i, l in enumerate((upper, lower, yhat)):
-            plt.plot(x[ix], l[ix], c='g' if i == 2 else 'r', lw=2)
-        plt.show()
+    # def exp_kmpfit(self):
+    #     # x = np.linspace(self.t.min(), self.t.max(), 100)
+    #     x = self.t
+    #     y = self.p
+    #     f = kmpfit.simplefit(self.kmpfit_model, [.1, .1, .1], x, y)
+    #     a, b, c = f.params
+    #     dfdp = [np.exp(-b*x), a*x*np.exp(-b*x), 1]
+    #     yhat, upper, lower = f.confidence_band(x, dfdp, 0.95, self.kmpfit_model)
+    #
+    #     plt.scatter(x, y)
+    #     ix = np.argsort(x)
+    #     for i, l in enumerate((upper, lower, yhat)):
+    #         plt.plot(x[ix], l[ix], c='g' if i == 2 else 'r', lw=2)
+    #     plt.show()
 
     @staticmethod
     def exp_model(t, a, b, c):
@@ -158,28 +163,8 @@ class AirPermSpec:
         a, b, c = p
         return a*np.exp(-b*x) + c
 
-    def exp_correlation(self):
-        xd = self.t
-        yd = self.p
-
-        residuals = yd - self.exp_model(xd, *self.popt)
-        # ss_res = np.sum(residuals)**2
-        # ss_total = np.sum((yd - np.mean(yd))**2)
-        # r2 = 1 - (ss_res / ss_total)
-
-        yp = self.exp_model(xd, *self.popt)
-        n = np.size(yd)
-        r2 = (n*np.sum(yd*yp) - (np.sum(yd)*np.sum(yp))) / \
-             (np.sqrt((n*(np.sum(np.square(yd))) - np.sum(yd)**2) * (n*(np.sum(np.square(yp))) - np.sum(yp)**2)))
-
-        # second = (self.pcov[0][1]) / \
-        #          (np.sqrt(self.pcov[0][0] * self.pcov[1][1]))
-        #
-        # log.debug('ss_res   =  {}'.format(ss_res))
-        # log.debug('ss_total =  {}'.format(ss_total))
-        # log.debug('perr =  {}'.format(np.sqrt(np.diag(self.pcov))))
-
-        return r2
+    def exp_std_errors(self):
+        return np.sqrt(np.diag(self.pcov))
 
     def plot(self):
         xd = self.t
@@ -225,7 +210,7 @@ def main(input, output='output.xls', template='apt_report_template.xlsx'):
     log.debug('# of Specs: {}'.format(len(apt.specs)))
     log.debug('-'*50)
     for spec in apt.specs:
-        log.debug('Exp. Fit,   R: {}'.format(spec.exp_correlation()))
+        log.debug('Exp. Fit,   STD ERRORS: {}'.format(spec.exp_std_errors()))
         spec.plot()
 
     plt.show()
@@ -281,36 +266,132 @@ def read_xlsx(file):
     return AirPermTest(**data)
 
 
+def write_exp_params(worksheet, spec):
+    worksheet['D4'] = spec.popt[0]
+    worksheet['F4'] = spec.popt[1]
+    worksheet['H4'] = spec.popt[2]
+    return worksheet
+
+
+def write_exp_errors(worksheet, spec):
+    std_errors = spec.exp_std_errors()
+    worksheet['D5'] = std_errors[0]
+    worksheet['F5'] = std_errors[1]
+    worksheet['H5'] = std_errors[2]
+    return worksheet
+
+
+def write_temp_constant(worksheet):
+    worksheet['E6'] = BLESSED_TEMP + CELSIUS_TO_KELVIN
+    return worksheet
+
+
+def write_spec_name(worksheet, spec):
+
+    worksheet['A1'] = spec.name.upper()
+    worksheet.title = spec.name.upper()
+    return worksheet
+
+
+def write_data_arrays(worksheet, spec, n):
+
+    for i in range(n):
+        row = 3 + i
+        # time
+        worksheet.cell(row=row, column=9).value = spec.t[i]
+        # nominal pressure
+        worksheet.cell(row=row, column=12).value = spec.nom_p[i]
+        # averaged temperature
+        worksheet.cell(row=row, column=13).value = spec.temps[i]
+    return worksheet
+
+
+def write_formulae(worksheet, n):
+    for i in range(n):
+        row = 3 + i
+
+        # exp curve values
+        time_n = 'I' + str(i+3)  # time (hours)
+        worksheet.cell(row=row, column=10).value = '=D4*EXP(-F4*' + time_n + ')+H4'
+
+        # normalized pressure
+        pressure_n = 'L'+str(i+3)
+        temperature_n = 'M'+str(i+3)
+        worksheet.cell(row=row, column=11).value = '=' + pressure_n + '* E6/' + temperature_n
+
+        # lower confidence band
+        worksheet.cell(row=row, column=14).value = '=(D4-D5)*EXP(-(F4-F5)*'+time_n+')+(H4-H5)'
+
+        # upper confidence band
+        worksheet.cell(row=row, column=15).value = '=(D4+D5)*EXP(-(F4+F5)*'+time_n+')+(H4+H5)'
+
+    return worksheet
+
+
+def write_spec_summary(wb, i, worksheet, spec):
+    summary_label_offset = 7
+    summary_label_gap = 3
+
+    # row number that data should be located at, function of spec # (aka worksheet #)
+    # n = first spec row
+    # n1 = second spec row
+    n = str((summary_label_gap * i) + summary_label_offset)
+    n1 = str((summary_label_gap * i) + summary_label_offset + 1)
+    wb['SUMMARY']['B' + n] = spec.name.upper()
+    wb['SUMMARY']['E' + n] = '='+spec.name + '!K3'
+    wb['SUMMARY']['E' + n1] = '='+spec.name + '!J3'
+
+    # spec_name needed
+    exp_curve_eval = '=' + spec.name + '!D4*EXP(-'+spec.name + \
+                     '!F4*((720*SUMMARY!G5)+(24*SUMMARY!H5)+SUMMARY!I5))+' + spec.name + '!H4'
+
+    lin_data_interp = '=FORECAST(((720*G5)+(24*H5)+(I5)),' + \
+                      'OFFSET('+spec.name+'!K3:K590,MATCH(((720*G5)+(24*H5)+(I5)),'+spec.name+'!I3:I590,1)-1,0,2),' + \
+                      'OFFSET('+spec.name+'!I3:I590,MATCH(((720*G5)+(24*H5)+(I5)),'+spec.name+'!I3:I590,1)-1,0,2))'
+
+    wb['SUMMARY']['G'+n] = lin_data_interp
+    wb['SUMMARY']['G'+n1] = exp_curve_eval
+    return wb
+
+
 def write_xlsx(data, file, template):
 
     wb = openpyxl.load_workbook(template)
-    ws = wb['SUMMARY']
-
-    ws['E11'] = 9999
-    ws['E13'] = 9999
-    ws['E15'] = 9999
-    ws['E17'] = 9999
-    ws['E19'] = 9999
-    ws['E21'] = 9999
 
     for i, spec in enumerate(data.specs):
         target = 'SPEC_'+str(i+1)
-        tmp = wb[target]
-        tmp['A1'] = spec.name.upper()
-        tmp['D4'] = spec.popt[0]
-        tmp['F4'] = spec.popt[1]
-        tmp['H4'] = spec.popt[2]
-        tmp['D5'] = spec.exp_correlation()
-        tmp.title = spec.name
-        for j in range(len(spec.p)):
-            tmp.cell(row=j+3, column=9).value = spec.t[j]
-            tmp.cell(row=j+3, column=10).value = spec.nom_p[j]
-            tmp.cell(row=j+3, column=11).value = spec.p[j]
-            tmp.cell(row=j+3, column=12).value = spec.temps[j]
-            # tmp.merge_cells(start_row=j+7, start_column=1, end_row=j+7, end_column=2)
-            # tmp.merge_cells(start_row=j+7, start_column=3, end_row=j+7, end_column=4)
-            # tmp.merge_cells(start_row=j+7, start_column=5, end_row=j+7, end_column=6)
-            # tmp.merge_cells(start_row=j+7, start_column=7, end_row=j+7, end_column=8)
+        ws = wb[target]
+
+        ws = write_exp_params(ws, spec)
+        ws = write_exp_errors(ws, spec)
+        ws = write_temp_constant(ws)
+        ws = write_spec_name(ws, spec)
+        ws = write_data_arrays(ws, spec, len(spec.p))
+        ws = write_formulae(ws, len(spec.p))
+        wb = write_spec_summary(wb, i, ws, spec)
+
+        # for j in range(len(spec.p)):
+            # tmp.cell(row=j+3, column=9).value = spec.t[j]
+            # tmp.cell(row=j+3, column=10).value = '=D4*EXP(-F4*I'+str(j+3)+')+H4'
+            # tmp.cell(row=j+3, column=11).value = '=L'+str(j+3)+'*'+str(BLESSED_TEMP+CELSIUS_TO_KELVIN)+'/ M'+str(j+3)
+            # tmp.cell(row=j+3, column=12).value = spec.nom_p[j]
+            # tmp.cell(row=j+3, column=13).value = spec.temps[j]
+
+        # chart = ScatterChart()
+        # chart.title = 'Pressure vs. Time'
+        # chart.style = 13
+        # chart.x_axis.title = 'Time (hrs)'
+        # chart.y_axis.tilte = 'Pressure (psi)'
+        # x_values = Reference(tmp, min_col=9, min_row=3, max_row=len(spec.p) + 3)
+        # p = Reference(tmp, min_col=10, min_row=3, max_row=len(spec.p) + 3)
+        # curve = Reference(tmp, min_col=11, min_row=3, max_row=len(spec.p) + 3)
+        # p_series = Series(p, x_values)
+        # c_series = Series(curve, x_values)
+        # chart.series.append(p_series)
+        # chart.series.append(c_series)
+        # tmp.add_chart(chart, 'A7')
+
+    # ws1 = wb['SUMMARY']
 
     wb.save('output.xlsx')
 
