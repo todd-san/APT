@@ -18,7 +18,9 @@ from pytz import timezone
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 from scipy import stats
-# from kapteyn import kmpfit
+from itertools import product
+import types
+
 
 BLESSED_TEMP = 22.2222222  # deg C for normalization
 CELSIUS_TO_KELVIN = 273.15
@@ -328,6 +330,47 @@ def write_formulae(worksheet, n):
     return worksheet
 
 
+def write_plots(worksheet, spec):
+    chart = ScatterChart()
+    chart.title = 'Measured Data w/ Exponential Fit \n Pressure vs. Temperature'
+    chart.style = 13
+    chart.x_axis.title = 'Time (hrs)'
+    chart.y_axis.title = 'Pressure (psi)'
+
+    # time values (hours)
+    x_values = Reference(worksheet, min_col=9, min_row=3, max_row=len(spec.p) + 3)
+
+    # pressure data (psi)
+    p = Reference(worksheet, min_col=11, min_row=3, max_row=len(spec.p) + 3)
+    p_series = Series(p, x_values)
+    chart.series.append(p_series)
+
+    # exponential curve fit data (psi)
+    exp = Reference(worksheet, min_col=10, min_row=3, max_row=len(spec.p) + 3)
+    exp_series = Series(exp, x_values)
+    chart.series.append(exp_series)
+
+    # Style the lines
+    s1 = chart.series[1]
+    s1.marker.symbol = "triangle"
+    s1.marker.graphicalProperties.solidFill = "FF0000"  # Marker filling
+    s1.marker.graphicalProperties.line.solidFill = "FF0000"  # Marker outline
+
+    s1.graphicalProperties.line.noFill = True
+
+    s2 = chart.series[0]
+    s2.graphicalProperties.line.solidFill = "00AAAA"
+    s2.graphicalProperties.line.dashStyle = "sysDot"
+    s2.graphicalProperties.line.width = 100050  # width in EMUs
+
+    worksheet.add_chart(chart, 'A7')
+    return worksheet
+
+
+def write_styling(worksheet):
+    return worksheet
+
+
 def write_spec_summary(wb, i, worksheet, spec):
     summary_label_offset = 7
     summary_label_gap = 3
@@ -368,28 +411,9 @@ def write_xlsx(data, file, template):
         ws = write_spec_name(ws, spec)
         ws = write_data_arrays(ws, spec, len(spec.p))
         ws = write_formulae(ws, len(spec.p))
+        ws = write_plots(ws, spec)
+        ws = write_styling(ws)
         wb = write_spec_summary(wb, i, ws, spec)
-
-        # for j in range(len(spec.p)):
-            # tmp.cell(row=j+3, column=9).value = spec.t[j]
-            # tmp.cell(row=j+3, column=10).value = '=D4*EXP(-F4*I'+str(j+3)+')+H4'
-            # tmp.cell(row=j+3, column=11).value = '=L'+str(j+3)+'*'+str(BLESSED_TEMP+CELSIUS_TO_KELVIN)+'/ M'+str(j+3)
-            # tmp.cell(row=j+3, column=12).value = spec.nom_p[j]
-            # tmp.cell(row=j+3, column=13).value = spec.temps[j]
-
-        # chart = ScatterChart()
-        # chart.title = 'Pressure vs. Time'
-        # chart.style = 13
-        # chart.x_axis.title = 'Time (hrs)'
-        # chart.y_axis.tilte = 'Pressure (psi)'
-        # x_values = Reference(tmp, min_col=9, min_row=3, max_row=len(spec.p) + 3)
-        # p = Reference(tmp, min_col=10, min_row=3, max_row=len(spec.p) + 3)
-        # curve = Reference(tmp, min_col=11, min_row=3, max_row=len(spec.p) + 3)
-        # p_series = Series(p, x_values)
-        # c_series = Series(curve, x_values)
-        # chart.series.append(p_series)
-        # chart.series.append(c_series)
-        # tmp.add_chart(chart, 'A7')
 
     # ws1 = wb['SUMMARY']
 

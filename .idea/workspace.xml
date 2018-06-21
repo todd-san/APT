@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6479320-7c7a-4d88-9bd8-c1be9d0c2ce1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/apt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/apt.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bgAPT/apt_report_template.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/bgAPT/apt_report_template.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bgAPT/kpat_results.log" beforeDir="false" afterPath="$PROJECT_DIR$/bgAPT/kpat_results.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bgAPT/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/bgAPT/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bgAPT/output.xlsx" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,9 +18,10 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bgAPT/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="330" column="47" selection-start-line="330" selection-start-column="47" selection-end-line="330" selection-end-column="47" />
+            <state relative-caret-position="125">
+              <caret line="347" column="10" selection-start-line="347" selection-start-column="10" selection-end-line="347" selection-end-column="10" />
               <folding>
+                <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#399#2607#0" />
                 <element signature="e#437#1471#0" />
                 <element signature="e#488#1063#0" />
@@ -78,11 +75,6 @@
                 <element signature="e#10488#11110#0" />
                 <element signature="e#10964#11163#0" />
                 <element signature="e#11020#11101#0" />
-                <element signature="e#11293#12834#0" />
-                <element signature="e#11382#12779#0" />
-                <element signature="e#10465#10495#0" />
-                <element signature="e#11047#11529#0" />
-                <element signature="e#11564#13123#0" />
                 <element signature="e#12321#12484#0" />
               </folding>
             </state>
@@ -205,12 +197,18 @@
       <option name="project" value="LOCAL" />
       <updated>1529520036433</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mostly done!">
+      <created>1529542304882</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1529542304882</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -218,7 +216,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.32978722" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.40751043" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2628651" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536913" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
@@ -244,7 +242,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="decided to use openpyxl and a template rather than building all that shit programmatically" />
-    <option name="LAST_COMMIT_MESSAGE" value="decided to use openpyxl and a template rather than building all that shit programmatically" />
+    <MESSAGE value="mostly done!" />
+    <option name="LAST_COMMIT_MESSAGE" value="mostly done!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -257,6 +256,7 @@
         <state relative-caret-position="6342">
           <caret line="302" column="29" lean-forward="true" selection-start-line="302" selection-start-column="29" selection-end-line="302" selection-end-column="29" />
           <folding>
+            <element signature="e#0#11#0" expanded="true" />
             <element signature="e#399#2607#0" />
             <element signature="e#437#1471#0" />
             <element signature="e#488#1063#0" />
@@ -310,21 +310,24 @@
             <element signature="e#10488#11110#0" />
             <element signature="e#10964#11163#0" />
             <element signature="e#11020#11101#0" />
-            <element signature="e#11293#12834#0" />
-            <element signature="e#11382#12779#0" />
-            <element signature="e#10465#10495#0" />
-            <element signature="e#11047#11529#0" />
-            <element signature="e#11564#13123#0" />
             <element signature="e#12321#12484#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/conda/conda/envs/env_apt_v1/Lib/zipfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="1089" selection-start-line="1089" selection-end-line="1089" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bgAPT/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="330" column="47" selection-start-line="330" selection-start-column="47" selection-end-line="330" selection-end-column="47" />
+        <state relative-caret-position="125">
+          <caret line="347" column="10" selection-start-line="347" selection-start-column="10" selection-end-line="347" selection-end-column="10" />
           <folding>
+            <element signature="e#0#11#0" expanded="true" />
             <element signature="e#399#2607#0" />
             <element signature="e#437#1471#0" />
             <element signature="e#488#1063#0" />
@@ -378,11 +381,6 @@
             <element signature="e#10488#11110#0" />
             <element signature="e#10964#11163#0" />
             <element signature="e#11020#11101#0" />
-            <element signature="e#11293#12834#0" />
-            <element signature="e#11382#12779#0" />
-            <element signature="e#10465#10495#0" />
-            <element signature="e#11047#11529#0" />
-            <element signature="e#11564#13123#0" />
             <element signature="e#12321#12484#0" />
           </folding>
         </state>
