@@ -1,25 +1,27 @@
-import xlrd
+# core python imports
+import os
+import sys
+import time
 import copy
+import json
+import logging
+import datetime
+
+# 3rd party imports
+from pytz import timezone
+import numpy as np
+import xlwt
+import xlrd
 import openpyxl
 from openpyxl.chart import (
     ScatterChart,
     Reference,
     Series,
+
 )
-import numpy as np
-import os
-import xlwt
-import json
-import logging
-import sys
-import datetime
-import time
-from pytz import timezone
 import matplotlib.pyplot as plt
-from scipy.optimize import curve_fit
 from scipy import stats
-from itertools import product
-import types
+from scipy.optimize import curve_fit
 
 
 BLESSED_TEMP = 22.2222222  # deg C for normalization
@@ -460,6 +462,7 @@ def init_logger():
 
     filelog.addHandler(fh)
     filelog.addHandler(ch)
+
     return filelog
 
 
