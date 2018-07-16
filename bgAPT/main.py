@@ -32,6 +32,7 @@ class AirPermTest:
         if kwargs:
             specs = []
             for key, value in kwargs.items():
+                # log.info('{}: {}'.format(key, value))
                 if key in ['datetime']:
                     setattr(self, key, value)
                 elif key == 'baro':
@@ -76,6 +77,7 @@ class AirPermTest:
                 values = list()
                 for value in getattr(self.temperatures, item):
                     values.append(value+CELSIUS_TO_KELVIN)
+
                 temps.append(values)
             return list(np.mean(np.array(temps), axis=0))
         else:
@@ -96,10 +98,24 @@ class AirPermSpec:
         self.nom_p = pressures                                  # psi
         self.p = self.normalized_pressures(p_array=pressures)   # psi
         self.t = np.array([val/3600 for val in time])
-        self.popt, self.pcov = curve_fit(self.exp_model, self.t, self.p)
+        log.info('Spec: {}, self.p[0]: {}, self.p[-1]: {}'.format(self.name, self.p[0], self.p[-1]))
+        log.info('len(self.t): {}'.format(len(self.t)))
+        log.info('len(self.p): {}'.format(len(self.p)))
+        log.info('--'*50)
+        try:
+            self.popt, self.pcov = curve_fit(self.exp_model, self.t, self.p)
+        except RuntimeError as re:
+            log.error(re)
+            self.popt = [0, 0, 0]
+            self.pcov = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
     def normalized_pressures(self, p_array):
         norm_p = []
+        # log.debug('LENGTH self.temps: {}'.format(len(self.temps)))
+        # log.debug('LENGTH p_array: {}'.format(len(p_array)))
+        # log.debug('temps[-1]: {}'.format(self.temps[-1]))
+        # log.debug('p_array[-1]: {}'.format(p_array[-1]))
+
         for i, val in enumerate(p_array):
             norm_p.append((val*(BLESSED_TEMP+CELSIUS_TO_KELVIN))/(self.temps[i]))
         return np.array(norm_p)
@@ -200,9 +216,9 @@ class AirPermThermocouples:
                 setattr(self, key, value)
 
 
-def main(input, output='output.xls', template='apt_report_template.xlsx'):
+def main(input, start, output, template='apt_report_template.xlsx'):
     log.info('CALLING read_xlsx(input_file={})'.format(input))
-    apt = read_xlsx(input)
+    apt = read_xlsx(input, start)
     # log.debug('{}'.format(apt.avg_temp_kelvin[0:5]))
     # log.debug('{}'.format(apt.avg_temp_celsius[0:5]))
     # log.debug('-'*50)
@@ -219,16 +235,18 @@ def main(input, output='output.xls', template='apt_report_template.xlsx'):
     write_xlsx(apt, output, template)
 
 
-def read_xlsx(file):
-    START_ROW = 10
-
+def read_xlsx(file, start):
+    START_ROW = int(start)
     log.debug('-'*50)
     log.debug('READING INPUT *.XLSX FILE')
+    log.debug('TEST START: {}'.format(START_ROW))
     log.debug('-'*50)
     data = {}
     dates = []
     times = []
     wb = xlrd.open_workbook(file)
+    log.debug("workbook: {}".format(wb))
+    log.debug("workbook._sheet_names: {}".format(wb._sheet_names))
     log.debug("number of sheets: {}".format(wb.nsheets))
     for i in range(wb.nsheets):
         ws = wb.sheet_by_index(i)
@@ -252,7 +270,12 @@ def read_xlsx(file):
                 else:
                     key = str(ws.cell_value(0, j)) + '_' + str(ws.cell_value(1, j))
                 key = key.replace('[', '').replace(']', '').replace('°', 'deg_').replace('.', '_').strip('_')
-                data[key.lower()] = ws.col_values(j, START_ROW)
+                if key:
+                    data[key.lower()] = []
+                    temp = ws.col_values(j, START_ROW)
+                    for item in temp:
+                        if item:
+                            data[key.lower()].append(item)
                 pass
 
         if dates and times:
@@ -417,7 +440,7 @@ def write_xlsx(data, file, template):
 
     # ws1 = wb['SUMMARY']
 
-    wb.save('output.xlsx')
+    wb.save(file)
 
 
 def init_logger():
@@ -453,11 +476,14 @@ if __name__ == "__main__":
     ))
     log.info('==============================================================================')
 
-    if len(sys.argv) >= 3:
-        main(input=sys.argv[1], output=sys.argv[2])
+    if len(sys.argv) >= 4:
+        main(input=sys.argv[1], start=sys.argv[2], output=sys.argv[3])
+
+    elif len(sys.argv) == 3:
+        main(input=sys.argv[1], start=sys.argv[2], output='output.xlsx')
 
     elif len(sys.argv) == 2:
-        main(input=sys.argv[1])
+        main(input=sys.argv[1], start=4)
 
     else:
         log.error("INCOMPETENCE ERROR: No input file, SOLUTION: I suggest to stop being stupid")
