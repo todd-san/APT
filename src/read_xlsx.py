@@ -144,8 +144,8 @@ def format_data_dict(specs, params, data, log):
     :param params: <list> of temp and baro keys in data dict
     :param data: <dict> flat dictionary of the populated test data
     :return: d: <dict> dictionary of re-formatted test data
+    :return: specs: unchanged from input.. returned to keep track of order
     """
-    log.debug('data keys: {}'.format(dict.keys(data)))
     d = {}
     for spec in specs:
         d[spec] = {
@@ -155,4 +155,4 @@ def format_data_dict(specs, params, data, log):
         for param in params:
             d[spec][param] = data[param]
 
-    return d
+    return d, specs

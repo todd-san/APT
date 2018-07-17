@@ -68,11 +68,10 @@ class AptSpec:
     @property
     def pressure(self):
         p = list()
-        for i, val in enumerate(self.baro):
+        for i, val in enumerate(self.psi):
             p.append((val*(IDEAL_APT_ROOM+CELSIUS_2_KELVIN))/(self.avg_temp[i]))
         return np.array(p)
 
-    @property
     def curve_fit(self):
         try:
             popt, pcov = optimize.curve_fit(self.exp_model, self.time, self.pressure)

@@ -9,10 +9,7 @@ import datetime
 import argparse
 
 # 3rd party imports
-from pytz import timezone
-import numpy as np
 import xlwt
-import xlrd
 import openpyxl
 from openpyxl.chart import (
     ScatterChart,
@@ -20,15 +17,14 @@ from openpyxl.chart import (
     Series,
 
 )
-import matplotlib.pyplot as plt
 from scipy import stats
-from scipy.optimize import curve_fit
 
 
 # relative imports
 from src import apt_logger
 from src import read_xlsx as rx
 from src import AptSpec as apt
+from src import write_xlsx as wx
 
 
 def main():
@@ -39,8 +35,11 @@ def main():
         stream=args.debug_stream,
         full=args.debug_all
     )
+    log.debug('ARGS: {}'.format(args))
 
-    log.info('ARGS: {}'.format(args))
+    apt_specs = None
+    order = None
+    data = None
 
     if not args.csv and not args.xlsx:
         log.error('No input file defined')
@@ -53,35 +52,52 @@ def main():
         log.debug('args.end: {}'.format(args.end))
 
     elif args.xlsx:
-        log.info('reading [xlsx] from path: "{}"'.format(args.xlsx))
-        log.debug('args.xlsx: {}'.format(args.xlsx[0]))
-        log.debug('args.start: {}'.format(args.start))
-        log.debug('args.end: {}'.format(args.end))
-        if args.end:
-            data = rx.read_xlsx(file=args.xlsx, start=int(args.start), log=log, end=int(args.end))
+        if args.xlsx.split('.')[-1] == 'xlsx':
+            log.info('reading [xlsx] from path: "{}"'.format(args.xlsx))
+            log.debug('args.xlsx: {}'.format(args.xlsx[0]))
+            log.debug('args.start: {}'.format(args.start))
+            log.debug('args.end: {}'.format(args.end))
+            if args.end:
+                data, order = rx.read_xlsx(file=args.xlsx, start=int(args.start), log=log, end=int(args.end))
+            else:
+                data, order = rx.read_xlsx(file=args.xlsx, start=int(args.start), log=log)
         else:
-            data = rx.read_xlsx(file=args.xlsx, start=int(args.start), log=log)
+            log.error('Wrong file type, given: "{}", expected: "{}"'.format(args.xlsx.split('.')[-1], 'xlsx'))
+            sys.exit(-1)
 
         log.info('finished reading')
-        classify_apt_data(data, log)
+        log.debug('spec order: {}'.format(order))
+        apt_specs = classify_data(data, log)
 
     if args.trim:
         log.debug('TRIM')
 
+    if apt_specs and order:
+        log.debug('-'*75)
+        # log.debug('apt_specs: {}'.format(apt_specs))
+        log.debug('-'*75)
+        wx.write_xlsx(apt_specs, order, data, log)
 
-def classify_apt_data(data, log):
+
+def classify_data(data, log):
+    log.info('-'*75)
     specs = []
-
     for i, key in enumerate(dict.keys(data)):
-        if i == 0:
-            log.info('AptSpec made: data[{}]'.format(key))
-            log.info('dict.keys(data[{}])'.format(dict.keys(data[key])))
-            specs.append(apt.AptSpec(key, **data[key]))
+        specs.append(apt.AptSpec(key, **data[key]))
 
-    log.info('spec.name: {}'.format(specs[0].name))
-    log.info('spec.psi[:10]: {}'.format(specs[0].psi[:10]))
-    log.info('spec.baro[:10]: {}'.format(specs[0].baro[:10]))
-    log.info('spec.baro[:10]: {}'.format(specs[0].curve_fit))
+    for spec in specs:
+        cf = spec.curve_fit()
+        popt = cf['popt']
+        pcov = cf['pcov']
+        if not all([v == 0 for v in popt]):
+            log.info('AptSpec: "{}" curve_fit successful'.format(spec.name))
+            log.info('  popt: {}, {}, {}, curve_fit successful'.format(popt[0], popt[1], popt[2]))
+            log.info('  pcov: {}, {}, {}, curve_fit successful'.format(pcov[0][0], pcov[1][1], pcov[2][2]))
+        else:
+            log.info('AptSpec: "{}" curve_fit failed'.format(spec.name))
+    log.info('-' * 75)
+
+    return specs
 
 
 def parse_args():
