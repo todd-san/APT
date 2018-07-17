@@ -78,6 +78,7 @@ def write_summary_formatting(wb, order, log):
             'valign': 'vcenter',
             'fg_color': 'white',
             'font_size': 11,
+            'text_wrap': 1,
         })
         yellow_val_format_12 = wb.add_format({
             'border': 1,
@@ -104,7 +105,7 @@ def write_summary_formatting(wb, order, log):
         ws.merge_range('E4:F5', 'START', bold_label_format_16)
 
         # starting sample number label and format
-        ws.write('G3', 'Starting \nSample #', normal_label_format_11)
+        ws.write('G3', u'Starting Sample #', normal_label_format_11)
         ws.merge_range('H3:I3', '', yellow_val_format_12)
 
         # start date & start time
@@ -299,7 +300,8 @@ def write_spec_pages(wb, specs, order, log):
         'align': 'center',
         'valign': 'vcenter',
         'fg_color': '#DEEBF7',
-        'font_size': 12
+        'font_size': 12,
+        'text_wrap': 1,
     })
     data_label_tan = wb.add_format({
         'bold': 1,
@@ -307,7 +309,8 @@ def write_spec_pages(wb, specs, order, log):
         'align': 'center',
         'valign': 'vcenter',
         'fg_color': '#FFF2CC',
-        'font_size': 12
+        'font_size': 12,
+        'text_wrap': 1,
     })
     data_label_green = wb.add_format({
         'bold': 1,
@@ -315,7 +318,8 @@ def write_spec_pages(wb, specs, order, log):
         'align': 'center',
         'valign': 'vcenter',
         'fg_color': '#E2F0D9',
-        'font_size': 12
+        'font_size': 12,
+        'text_wrap': 1,
     })
     normal_12 = wb.add_format({
         'bold': 0,
@@ -435,6 +439,7 @@ def write_spec_pages(wb, specs, order, log):
         pcov = cf['pcov']
         pressure = s.pressure
         avg_temp = s.avg_temp
+        m_pressure = s.psi
 
         for i in range(len(s.time)):
             # write coefficients
@@ -453,11 +458,15 @@ def write_spec_pages(wb, specs, order, log):
             # write curve fit EQ
             sheet.write_formula('J'+row, '=D4*EXP(-F4*I'+row+')+H4', data_format)
 
+            # # write normalized pressure
+            # sheet.write_formula('K'+row, '=L'+row+'* E6/M'+row+'', data_format)
+
             # write normalized pressure
-            sheet.write_formula('K'+row, '=L'+row+'* E6/M'+row+'', data_format)
+            sheet.write('K'+row, pressure[i], data_format)
 
             # write measured pressure
-            sheet.write('L'+row, pressure[i], data_format)
+            sheet.write('L'+row, m_pressure[i], data_format)
+
 
             # write average temperature
             sheet.write('M'+row, avg_temp[i], data_format)
@@ -465,18 +474,23 @@ def write_spec_pages(wb, specs, order, log):
         return sheet
 
     def write_charts(sheet, s):
-        chart = wb.add_chart({'type': 'scatter'})
+        chart = wb.add_chart({'type': 'line'})
         chart.add_series({
             'name': 'Curve Fit',
-            'categories': '='+s.name+'!$I$3:$I:$'+str(len(s.psi)+3),
-            'values': '='+s.name+'!$J$3:$J:$'+str(len(s.psi)+3)
+            'categories': '='+s.name+'!$I$3:$I$'+str(len(s.psi)+3),
+            'values': '='+s.name+'!$J$3:$J$'+str(len(s.psi)+3)
+        })
+        chart.add_series({
+            'name': 'Pressure',
+            'categories': '=' + s.name + '!$I$3:$I$' + str(len(s.psi) + 3),
+            'values': '=' + s.name + '!$K$3:$K$' + str(len(s.psi) + 3)
         })
         chart.set_title({'name': 'Pressure vs. Time'})
-        chart.set_x_axis({'name': 'Time (hours)'})
+        chart.set_x_axis({'name': 'Time (hours)', 'interval_unit': 86})
         chart.set_y_axis({'name': 'Pressure (PSI)'})
         chart.set_style(11)
 
-        sheet.insert_chart('A7', chart, {'x_offset': 25, 'y_offset': 10})
+        sheet.insert_chart('A7', chart)
 
         return sheet
 

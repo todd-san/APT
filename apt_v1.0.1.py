@@ -1,24 +1,6 @@
 # core python imports
-import os
 import sys
-import time
-import copy
-import json
-import logging
-import datetime
 import argparse
-
-# 3rd party imports
-import xlwt
-import openpyxl
-from openpyxl.chart import (
-    ScatterChart,
-    Reference,
-    Series,
-
-)
-from scipy import stats
-
 
 # relative imports
 from src import apt_logger
