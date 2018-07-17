@@ -1,0 +1,33 @@
+status -            init - 37 - INFO - ==============================================================================
+status -            init - 38 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -            init - 39 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -            init - 41 - INFO - ----------------           2018-07-17 | 17:00:56          --------------------
+status -            init - 43 - INFO - ==============================================================================
+status -            main - 20 - DEBUG - ARGS: Namespace(analyze=0, csv=None, debug=0, debug_all=0, debug_file=0, debug_stream=0, end=None, l=None, n=None, s=None, start=0, t=None, trim=0, xlsx='raw_data/Mondraker_data__1_2018-06-22_19-30-00_000000.xlsx')
+status -            main - 38 - INFO - reading [xlsx] from path: "raw_data/Mondraker_data__1_2018-06-22_19-30-00_000000.xlsx"
+status -            main - 39 - DEBUG - args.xlsx: r
+status -            main - 40 - DEBUG - args.start: 0
+status -            main - 41 - DEBUG - args.end: None
+status -       read_xlsx - 7 - DEBUG - ---------------------------------------------------------------------------
+status -       read_xlsx - 8 - DEBUG - reading file: raw_data/Mondraker_data__1_2018-06-22_19-30-00_000000.xlsx
+status -       read_xlsx - 9 - DEBUG -   test start: 0
+status -       read_xlsx - 27 - DEBUG -  worksheet 1: Mondraker data__1_2018-06-22_19
+status -       read_xlsx - 51 - DEBUG - ---------------------------------------------------------------------------
+status -            main - 50 - INFO - finished reading
+status -            main - 51 - DEBUG - spec order: ['p23_s6', 'p24_s5', 'p33_s1', 'p34_s2', 'p35_s3', 'p36_s4']
+status -   classify_data - 65 - INFO - ---------------------------------------------------------------------------
+status -   classify_data - 77 - INFO - AptSpec: "p23_s6" curve_fit failed
+status -   classify_data - 77 - INFO - AptSpec: "p24_s5" curve_fit failed
+status -   classify_data - 75 - INFO - AptSpec: "p33_s1" curve_fit successful
+status -   classify_data - 75 - INFO - AptSpec: "p34_s2" curve_fit successful
+status -   classify_data - 75 - INFO - AptSpec: "p35_s3" curve_fit successful
+status -   classify_data - 77 - INFO - AptSpec: "p36_s4" curve_fit failed
+status -   classify_data - 78 - INFO - ---------------------------------------------------------------------------
+status -            main - 58 - DEBUG - ---------------------------------------------------------------------------
+status -            main - 60 - DEBUG - ---------------------------------------------------------------------------
+status -   format_header - 390 - INFO - starting datetime: 2018-06-22 19:30:00
+status -   format_header - 390 - INFO - starting datetime: 2018-06-22 19:30:00
+status -   format_header - 390 - INFO - starting datetime: 2018-06-22 19:30:00
+status -   format_header - 390 - INFO - starting datetime: 2018-06-22 19:30:00
+status -   format_header - 390 - INFO - starting datetime: 2018-06-22 19:30:00
+status -   format_header - 390 - INFO - starting datetime: 2018-06-22 19:30:00

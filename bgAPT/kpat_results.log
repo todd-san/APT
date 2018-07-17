@@ -1,0 +1,127 @@
+status -        <module> - 474 - INFO - ==============================================================================
+status -        <module> - 475 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 476 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 478 - INFO - ----------------           2018-07-17 | 14:29:00          --------------------
+status -        <module> - 480 - INFO - ==============================================================================
+status -        <module> - 474 - INFO - ==============================================================================
+status -        <module> - 475 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 476 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 478 - INFO - ----------------           2018-07-17 | 14:29:13          --------------------
+status -        <module> - 480 - INFO - ==============================================================================
+status -            main - 222 - INFO - CALLING read_xlsx(input_file=../raw_data/Mondraker_data__1_2018-06-22_19-30-00_000000.xlsx)
+status -        <module> - 474 - INFO - ==============================================================================
+status -        <module> - 475 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 476 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 478 - INFO - ----------------           2018-07-17 | 14:29:24          --------------------
+status -        <module> - 480 - INFO - ==============================================================================
+status -            main - 222 - INFO - CALLING read_xlsx(input_file=../raw_data/Mondraker_data__1_2018-06-22_19-30-00_000000.xlsx)
+status -        <module> - 474 - INFO - ==============================================================================
+status -        <module> - 475 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 476 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 478 - INFO - ----------------           2018-07-17 | 14:29:35          --------------------
+status -        <module> - 480 - INFO - ==============================================================================
+status -            main - 222 - INFO - CALLING read_xlsx(input_file=../raw_data/Mondraker_data__1_2018-06-22_19-30-00_000000.xlsx)
+status -       read_xlsx - 242 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 243 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 244 - DEBUG - TEST START: 4
+status -       read_xlsx - 245 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 250 - DEBUG - workbook: <xlrd.book.Book object at 0x7fc58476e828>
+status -       read_xlsx - 251 - DEBUG - workbook._sheet_names: ['Mondraker data__1_2018-06-22_19']
+status -       read_xlsx - 252 - DEBUG - number of sheets: 1
+status -       read_xlsx - 255 - DEBUG - worksheet 1: Mondraker data__1_2018-06-22_19
+status -        __init__ - 103 - INFO - Spec: p23_s6, self.p[0]: 28.954577718486746, self.p[-1]: 23.95331111282646
+status -        __init__ - 104 - INFO - len(self.t): 342
+status -        __init__ - 105 - INFO - len(self.p): 342
+status -        __init__ - 106 - INFO - ----------------------------------------------------------------------------------------------------
+status -        __init__ - 110 - ERROR - Optimal parameters not found: Number of calls to function has reached maxfev = 800.
+status -        __init__ - 103 - INFO - Spec: p24_s5, self.p[0]: 29.08854129930785, self.p[-1]: 24.12084403049913
+status -        __init__ - 104 - INFO - len(self.t): 342
+status -        __init__ - 105 - INFO - len(self.p): 342
+status -        __init__ - 106 - INFO - ----------------------------------------------------------------------------------------------------
+status -        __init__ - 110 - ERROR - Optimal parameters not found: Number of calls to function has reached maxfev = 800.
+status -        __init__ - 103 - INFO - Spec: p33_s1, self.p[0]: 29.116693066291997, self.p[-1]: 8.769179405854613
+status -        __init__ - 104 - INFO - len(self.t): 342
+status -        __init__ - 105 - INFO - len(self.p): 342
+status -        __init__ - 106 - INFO - ----------------------------------------------------------------------------------------------------
+status -        __init__ - 103 - INFO - Spec: p34_s2, self.p[0]: 28.873034669291286, self.p[-1]: 3.3574765535911197
+status -        __init__ - 104 - INFO - len(self.t): 342
+status -        __init__ - 105 - INFO - len(self.p): 342
+status -        __init__ - 106 - INFO - ----------------------------------------------------------------------------------------------------
+status -        __init__ - 103 - INFO - Spec: p35_s3, self.p[0]: 29.38073722559157, self.p[-1]: 25.409483856551073
+status -        __init__ - 104 - INFO - len(self.t): 342
+status -        __init__ - 105 - INFO - len(self.p): 342
+status -        __init__ - 106 - INFO - ----------------------------------------------------------------------------------------------------
+status -        __init__ - 103 - INFO - Spec: p36_s4, self.p[0]: 29.180762604945574, self.p[-1]: 22.79713917516686
+status -        __init__ - 104 - INFO - len(self.t): 342
+status -        __init__ - 105 - INFO - len(self.p): 342
+status -        __init__ - 106 - INFO - ----------------------------------------------------------------------------------------------------
+status -        __init__ - 110 - ERROR - Optimal parameters not found: Number of calls to function has reached maxfev = 800.
+status -            main - 230 - DEBUG - # of Specs: 6
+status -            main - 231 - DEBUG - --------------------------------------------------
+status -            main - 233 - DEBUG - Exp. Fit,   STD ERRORS: [ 0.  0.  0.]
+status -            main - 233 - DEBUG - Exp. Fit,   STD ERRORS: [ 0.  0.  0.]
+status -            main - 233 - DEBUG - Exp. Fit,   STD ERRORS: [  3.24746471e-02   3.84936956e-05   3.73155451e-02]
+status -            main - 233 - DEBUG - Exp. Fit,   STD ERRORS: [ 0.04141034  0.00010984  0.04923873]
+status -            main - 233 - DEBUG - Exp. Fit,   STD ERRORS: [  8.91091411e-01   1.91991802e-04   8.97072164e-01]
+status -            main - 233 - DEBUG - Exp. Fit,   STD ERRORS: [ 0.  0.  0.]
+status -        <module> - 495 - INFO - ==============================================================================
+status -        <module> - 497 - INFO - ----------------            2018-07-17 | 14:29:42         --------------------
+status -        <module> - 499 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 500 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 501 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 502 - INFO - ==============================================================================
+status -        <module> - 474 - INFO - ==============================================================================
+status -        <module> - 475 - INFO - ----------------          STARTING-UP THIS BIATCH         --------------------
+status -        <module> - 476 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 478 - INFO - ----------------           2018-07-17 | 14:30:47          --------------------
+status -        <module> - 480 - INFO - ==============================================================================
+status -            main - 222 - INFO - CALLING read_xlsx(input_file=../raw_data/Mondraker_data__1_2018-06-22_19-30-00_000000.xlsx)
+status -       read_xlsx - 242 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 243 - DEBUG - READING INPUT *.XLSX FILE
+status -       read_xlsx - 244 - DEBUG - TEST START: 3
+status -       read_xlsx - 245 - DEBUG - --------------------------------------------------
+status -       read_xlsx - 250 - DEBUG - workbook: <xlrd.book.Book object at 0x7f53e0b5f828>
+status -       read_xlsx - 251 - DEBUG - workbook._sheet_names: ['Mondraker data__1_2018-06-22_19']
+status -       read_xlsx - 252 - DEBUG - number of sheets: 1
+status -       read_xlsx - 255 - DEBUG - worksheet 1: Mondraker data__1_2018-06-22_19
+status -        __init__ - 103 - INFO - Spec: p23_s6, self.p[0]: 28.95855448792087, self.p[-1]: 23.95331111282646
+status -        __init__ - 104 - INFO - len(self.t): 343
+status -        __init__ - 105 - INFO - len(self.p): 343
+status -        __init__ - 106 - INFO - ----------------------------------------------------------------------------------------------------
+status -        __init__ - 110 - ERROR - Optimal parameters not found: Number of calls to function has reached maxfev = 800.
+status -        __init__ - 103 - INFO - Spec: p24_s5, self.p[0]: 29.126017715839385, self.p[-1]: 24.12084403049913
+status -        __init__ - 104 - INFO - len(self.t): 343
+status -        __init__ - 105 - INFO - len(self.p): 343
+status -        __init__ - 106 - INFO - ----------------------------------------------------------------------------------------------------
+status -        __init__ - 110 - ERROR - Optimal parameters not found: Number of calls to function has reached maxfev = 800.
+status -        __init__ - 103 - INFO - Spec: p33_s1, self.p[0]: 29.18893742575097, self.p[-1]: 8.769179405854613
+status -        __init__ - 104 - INFO - len(self.t): 343
+status -        __init__ - 105 - INFO - len(self.p): 343
+status -        __init__ - 106 - INFO - ----------------------------------------------------------------------------------------------------
+status -        __init__ - 103 - INFO - Spec: p34_s2, self.p[0]: 29.099881836337655, self.p[-1]: 3.3574765535911197
+status -        __init__ - 104 - INFO - len(self.t): 343
+status -        __init__ - 105 - INFO - len(self.p): 343
+status -        __init__ - 106 - INFO - ----------------------------------------------------------------------------------------------------
+status -        __init__ - 103 - INFO - Spec: p35_s3, self.p[0]: 29.319616823259636, self.p[-1]: 25.409483856551073
+status -        __init__ - 104 - INFO - len(self.t): 343
+status -        __init__ - 105 - INFO - len(self.p): 343
+status -        __init__ - 106 - INFO - ----------------------------------------------------------------------------------------------------
+status -        __init__ - 103 - INFO - Spec: p36_s4, self.p[0]: 29.139569653358805, self.p[-1]: 22.79713917516686
+status -        __init__ - 104 - INFO - len(self.t): 343
+status -        __init__ - 105 - INFO - len(self.p): 343
+status -        __init__ - 106 - INFO - ----------------------------------------------------------------------------------------------------
+status -        __init__ - 110 - ERROR - Optimal parameters not found: Number of calls to function has reached maxfev = 800.
+status -            main - 230 - DEBUG - # of Specs: 6
+status -            main - 231 - DEBUG - --------------------------------------------------
+status -            main - 233 - DEBUG - Exp. Fit,   STD ERRORS: [ 0.  0.  0.]
+status -            main - 233 - DEBUG - Exp. Fit,   STD ERRORS: [ 0.  0.  0.]
+status -            main - 233 - DEBUG - Exp. Fit,   STD ERRORS: [  3.26861335e-02   3.87760782e-05   3.75923920e-02]
+status -            main - 233 - DEBUG - Exp. Fit,   STD ERRORS: [ 0.04151692  0.00010979  0.04927886]
+status -            main - 233 - DEBUG - Exp. Fit,   STD ERRORS: [  8.86535510e-01   1.90258276e-04   8.92499304e-01]
+status -            main - 233 - DEBUG - Exp. Fit,   STD ERRORS: [ 0.  0.  0.]
+status -        <module> - 495 - INFO - ==============================================================================
+status -        <module> - 497 - INFO - ----------------            2018-07-17 | 14:30:50         --------------------
+status -        <module> - 499 - INFO - ----------------                    DONE                  --------------------
+status -        <module> - 500 - INFO - -------------  BICYCLE GROUP AIR-PERM TEST, POST PROCESSING  -----------------
+status -        <module> - 501 - INFO - ----------------                 PROGRAM END              --------------------
+status -        <module> - 502 - INFO - ==============================================================================

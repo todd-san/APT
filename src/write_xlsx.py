@@ -360,6 +360,9 @@ def write_spec_pages(wb, specs, order, log):
         'fg_color': 'white',
         'font_size': 11
     })
+    date_format = wb.add_format({
+        'num_format': 'm/d/yyyy hh:mm:ss AM/PM'
+    })
 
     def format_header(sheet, s):
         # set column widths
@@ -383,7 +386,10 @@ def write_spec_pages(wb, specs, order, log):
         # write secondary labels
         sheet.write('C2', 'Date:', start_labels)
         sheet.write('F2', 'Sample #:', start_labels)
-        sheet.merge_range('D2:E2', '', normal_12)
+
+        log.info("starting datetime: {}".format(s.datetime[0]))
+
+        sheet.merge_range('D2:E2', s.datetime[0], date_format)
         sheet.merge_range('G2:H2', '', normal_12)
 
         # write equation
@@ -486,7 +492,7 @@ def write_spec_pages(wb, specs, order, log):
             'values': '=' + s.name + '!$K$3:$K$' + str(len(s.psi) + 3)
         })
         chart.set_title({'name': 'Pressure vs. Time'})
-        chart.set_x_axis({'name': 'Time (hours)', 'interval_unit': 86})
+        chart.set_x_axis({'name': 'Time (hours)', 'interval_unit': 86, 'major_tick': 43, 'minor_tick': 21})
         chart.set_y_axis({'name': 'Pressure (PSI)'})
         chart.set_style(11)
 

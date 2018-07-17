@@ -73,8 +73,6 @@ def classify_data(data, log):
         pcov = cf['pcov']
         if not all([v == 0 for v in popt]):
             log.info('AptSpec: "{}" curve_fit successful'.format(spec.name))
-            log.info('  popt: {}, {}, {}, curve_fit successful'.format(popt[0], popt[1], popt[2]))
-            log.info('  pcov: {}, {}, {}, curve_fit successful'.format(pcov[0][0], pcov[1][1], pcov[2][2]))
         else:
             log.info('AptSpec: "{}" curve_fit failed'.format(spec.name))
     log.info('-' * 75)
