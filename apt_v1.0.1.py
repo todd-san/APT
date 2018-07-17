@@ -27,6 +27,8 @@ from scipy.optimize import curve_fit
 
 # relative imports
 from src import apt_logger
+from src import read_xlsx as rx
+from src import AptSpec as apt
 
 
 def main():
@@ -37,6 +39,8 @@ def main():
         stream=args.debug_stream,
         full=args.debug_all
     )
+
+    log.info('ARGS: {}'.format(args))
 
     if not args.csv and not args.xlsx:
         log.error('No input file defined')
@@ -49,167 +53,35 @@ def main():
         log.debug('args.end: {}'.format(args.end))
 
     elif args.xlsx:
-        log.debug('XLSX')
+        log.info('reading [xlsx] from path: "{}"'.format(args.xlsx))
         log.debug('args.xlsx: {}'.format(args.xlsx[0]))
         log.debug('args.start: {}'.format(args.start))
         log.debug('args.end: {}'.format(args.end))
-        data = read_xlsx(file=args.xlsx[0], start=int(args.start[0]), end=int(args.end[0]), log=log)
-        apt=classify_apt_data(data=data, log=log)
+        if args.end:
+            data = rx.read_xlsx(file=args.xlsx, start=int(args.start), log=log, end=int(args.end))
+        else:
+            data = rx.read_xlsx(file=args.xlsx, start=int(args.start), log=log)
+
+        log.info('finished reading')
+        classify_apt_data(data, log)
 
     if args.trim:
         log.debug('TRIM')
 
 
 def classify_apt_data(data, log):
-    for key in dict.keys(data):
-        for inner_key in dict.keys(data[key]):
-            log.debug('{}:{} --> {}'.format(key, inner_key, type(data[key][inner_key])))
-
-
-def read_xlsx(file, start, end, log):
-    # starting read_xlsx() function debug.log
-    log.debug('-'*75)
-    log.debug('reading file: {}'.format(file))
-    log.debug('  test start: {}'.format(start))
-
-    # fix data offset & vars
-    start = start + 3
-    end = end + 3
-    data = {}
-    dates = []
-    times = []
     specs = []
-    params = []
 
-    # open specified workbook
-    wb = xlrd.open_workbook(file)
+    for i, key in enumerate(dict.keys(data)):
+        if i == 0:
+            log.info('AptSpec made: data[{}]'.format(key))
+            log.info('dict.keys(data[{}])'.format(dict.keys(data[key])))
+            specs.append(apt.AptSpec(key, **data[key]))
 
-    # loop through the worksheets... this should probably be discarded, as there should only ever be 1
-    for i in range(wb.nsheets):
-        ws = wb.sheet_by_index(i)
-        log.debug(" worksheet {}: {}".format(i + 1, ws.name))
-
-        for j in range(ws.ncols):
-            if j == 0:  # function read_date
-                dates = read_date(wb, ws, j, start, end)
-
-            elif j == 1:  # function read_time
-                times = read_time(ws, j, start, end)
-
-            else:
-                if isinstance(ws.cell_value(1, j), (int, float)):  # read_spec_header
-                    key = read_spec_header(ws, j)
-                    specs.append(key)
-                else:  # read_param_header
-                    key = read_param_header(ws, j)
-                    params.append(key)
-
-                if key:  # read_data
-                    data = read_data(ws, j, key, data, start, end)
-
-        if dates and times:
-            data['datetime'] = [datetime.datetime.combine(date, times[i]) for i, date in enumerate(dates)]
-
-    # format data-object for easy class creation
-    log.debug('-'*75)
-    return format_data_dict(specs, params, data)
-
-
-def format_data_dict(specs, params, data):
-    """
-    :param specs: <list> of spec keys in data dict.
-    :param params: <list> of temp and baro keys in data dict
-    :param data: <dict> flat dictionary of the populated test data
-    :return: d: <dict> dictionary of re-formatted test data
-    """
-    d = {}
-    for spec in specs:
-        d[spec] = {
-            'psi': data[spec],
-            'time': data['datetime']
-        }
-        for param in params:
-            d[spec][param] = data[param]
-
-    return d
-
-
-def read_spec_header(w, i):
-    """
-    :param w: <xlrd> worksheet
-    :param i: <int> column #
-    :return: <str> spec_header as str()
-    """
-    return (str(w.cell_value(0, i)) + '_s' + str(int(w.cell_value(1, i)))).lower()
-
-
-def read_param_header(w, i):
-    """
-    :param w: <xlrd> worksheet (xlrd obj)
-    :param i: <int> column #
-    :return: <str> param_header as str()
-    """
-    return (str(w.cell_value(0, i)) + '_' + str(w.cell_value(1, i)))\
-        .replace('[', '')\
-        .replace(']', '')\
-        .replace('°', 'deg_')\
-        .replace('.', '_')\
-        .strip('_')\
-        .lower()
-
-
-def read_time(w, i, start, end=None):
-    """
-    :param w: <xlrd> worksheet
-    :param i: <int> denoting column #
-    :param start: <int> denoting starting row #
-    :param end: <int> denoting ending row #
-    :return: <list> of datetime objects
-    """
-    if end:
-        return [datetime.time((int(val * 24 * 3600) // 3600),       # hours
-                              (int(val * 24 * 3600) % 3600) // 60,  # minutes
-                              (int(val * 24 * 3600) % 60))          # seconds
-                for val in w.col_values(i, start, end)]
-    else:
-        return [datetime.time((int(val * 24 * 3600) // 3600),  # hours
-                              (int(val * 24 * 3600) % 3600) // 60,  # minutes
-                              (int(val * 24 * 3600) % 60))  # seconds
-                for val in w.col_values(i, start)]
-
-
-def read_date(b, w, i, start, end=None):
-    """
-    :param b: <xlrd> workbook
-    :param w: <xlrd> worksheet
-    :param i: <int> denoting column #
-    :param start: <int> denoting starting row #
-    :param end: <int> denoted ending row #, default=None
-    :return:
-    """
-    if end:
-        return [datetime.datetime(*xlrd.xldate_as_tuple(val, b.datemode)) for val in w.col_values(i, start, end)]
-    else:
-        return [datetime.datetime(*xlrd.xldate_as_tuple(val, b.datemode)) for val in w.col_values(i, start, end)]
-
-
-def read_data(w, i, key, data, start, end=None):
-    """
-    :param w: <xlrd> worksheet
-    :param i: <int> denotes column # in worksheet
-    :param key: <str> denotes str-object to use as dict key
-    :param data: <dict> object to populate with data
-    :param start: <int> denotes starting row #
-    :param end: <int> denotes ending row #
-    :return: data: <dict>
-    """
-    if end:
-        data[key.lower()] = []
-        temp = w.col_values(i, start, end)
-        for item in temp:
-            if item:
-                data[key.lower()].append(item)
-    return data
+    log.info('spec.name: {}'.format(specs[0].name))
+    log.info('spec.psi[:10]: {}'.format(specs[0].psi[:10]))
+    log.info('spec.baro[:10]: {}'.format(specs[0].baro[:10]))
+    log.info('spec.baro[:10]: {}'.format(specs[0].curve_fit))
 
 
 def parse_args():
@@ -251,10 +123,10 @@ def parse_args():
     args.add_argument('-l', type=str, nargs='+', help=l_help)
     args.add_argument('-t', type=str, nargs='+', help=t_help)
     args.add_argument('-n', type=str, nargs='+', help=n_help)
-    args.add_argument('-xlsx', type=str, nargs='+', help=xlsx_help)
+    args.add_argument('-xlsx', type=str, help=xlsx_help)
     args.add_argument('-csv', type=str, nargs='+', help=csv_help)
-    args.add_argument('-start', type=str, nargs='+', help=start_help)
-    args.add_argument('-end', type=str, nargs='+', help=end_help)
+    args.add_argument('-start', type=int, help=start_help, default=0)
+    args.add_argument('-end', type=int, help=end_help, default=None)
 
     return args.parse_args()
 
